@@ -6,8 +6,33 @@ The Semantic Scholar Graph of References in Context (GORC) dataset is a literatu
 Full text and citation contexts are available for 8.1M papers. Abstracts are available for 73.4M papers.
 
 The dataset can be downloaded from the S3 bucket `s3://ai2-s2-gorc-release/`. 
-The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files available for download.
-The full corpus consists of 10000 files, and is around 870GB uncompressed and 200G compressed.
+The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files available for download.  It looks like:
+```
+{
+    "release_date": "2019-09-28",
+    "num_files": 10000,
+    "files": [
+        {
+            "filename": "20190928/papers/0.jsonl.tar.gz",
+            "num_items": 8259,
+            "seq_num": 0,
+            "size": 91007904,
+            "md5sum": "3a9df3bb0a7cb42e43d8661950f98dad"
+        },
+        {
+            "filename": "20190928/papers/1.jsonl.tar.gz",
+            "num_items": 8100,
+            "seq_num": 1,
+            "size": 87305473,
+            "md5sum": "d13c2d0ae06a854eb7a8d295d9fecb61"
+        },
+        ...
+    ]
+}
+```
+The full corpus consists of 10000 files, and is around 200GB compressed.
+
+WARNING: At current S3 transfer costs, downloading all of GORC should cost < 10USD. 
 
 Example code located in `examples/` uses the boto3 library to access AWS S3, more documentation [here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html).
 
