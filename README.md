@@ -7,6 +7,8 @@ Full text and citation contexts are available for 8.1M papers. Abstracts are ava
 
 The dataset is located in the S3 bucket `s3://ai2-s2-gorc-release/`. 
 
+To gain access to this bucket, create an AWS account and fill out this access request [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform).
+
 Use of this data is subject to the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 
 ## Data organization
@@ -36,17 +38,13 @@ The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all av
 }
 ```
 
-The full corpus consists of 10000 files, and is around 205GB compressed (and 870GB uncompressed).
+The full corpus consists of 10000 zipped files, and is around 205GB.
 
 ## Download instructions
 
-Example code located in `examples/` uses the boto3 library to access AWS S3, more documentation [here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html).
+1. Complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access. We will email you to confirm access granted.
 
-1. If you have AWS access, skip to the next step. Otherwise, follow the instructions here to create an access key and setup your environment:
-
-    [AWS CreateAccessKey Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
-
-2. If you are using AWS CLI
+2. If you are using AWS CLI ([documentation](https://aws.amazon.com/cli/)):
 
 * To download the manifest file:
 
@@ -55,9 +53,12 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
 * To download all GORC data files:
 
     `mkdir gorc/`
+    
     `aws s3 sync s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
 
 3. If you are using Python:
+
+Example code located in `examples/` uses the boto3 library to access AWS S3, more documentation [here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html).
 
 * Setup an environment (below example uses Miniconda)
     * Download the Miniconda installer for your OS: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
