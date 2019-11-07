@@ -11,6 +11,8 @@ To gain access to this bucket, please set up an AWS count if you do not have one
 
 Use of this data is subject to the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 
+## Data organization
+
 The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files available for download.  It looks like:
 ```
 {
@@ -38,11 +40,9 @@ The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all av
 
 The full corpus consists of 10000 files, and is around 205GB compressed (and 870GB uncompressed).
 
-WARNING: At current S3 transfer costs, downloading all of GORC should cost < 10USD. 
+## Download instructions
 
 Example code located in `examples/` uses the boto3 library to access AWS S3, more documentation [here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html).
-
-## Download instructions
 
 1. If you have AWS access, skip to the next step. Otherwise, follow the instructions here to create an access key and setup your environment:
 
