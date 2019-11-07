@@ -1,11 +1,16 @@
-# Semantic Scholar GORC
+# Semantic Scholar GORC Corpus
 
 **Latest release: 2019-09-28**
 
 The Semantic Scholar Graph of References in Context (GORC) dataset is a literature graph of 81.0M academic publications and 380.5M citation edges. 
 Full text and citation contexts are available for 8.1M papers. Abstracts are available for 73.4M papers.
 
-The dataset can be downloaded from the S3 bucket `s3://ai2-s2-gorc-release/`. 
+The dataset is located in the S3 bucket `s3://ai2-s2-gorc-release/`. 
+
+To gain access to this bucket, please set up an AWS count if you do not have one already and complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform).
+
+Use of this data is subject to the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
+
 The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files available for download.  It looks like:
 ```
 {
@@ -16,21 +21,21 @@ The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all av
             "filename": "20190928/papers/0.jsonl.tar.gz",
             "num_items": 8259,
             "seq_num": 0,
-            "size": 91007904,
+            "size": 21351079,
             "md5sum": "3a9df3bb0a7cb42e43d8661950f98dad"
         },
         {
             "filename": "20190928/papers/1.jsonl.tar.gz",
             "num_items": 8100,
             "seq_num": 1,
-            "size": 87305473,
+            "size": 20675164,
             "md5sum": "d13c2d0ae06a854eb7a8d295d9fecb61"
         },
         ...
     ]
 }
 ```
-The full corpus consists of 10000 files, and is around 200GB compressed.
+The full corpus consists of 10000 files, and is around 205GB compressed (and 870GB uncompressed).
 
 WARNING: At current S3 transfer costs, downloading all of GORC should cost < 10USD. 
 
@@ -61,6 +66,5 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
     * Create a conda environment: `conda create -n gorc -y python==3.7`
     * Activate environment: `conda activate gorc`
     * Install requirements: `pip install -r requirements.txt`
-    * Install scispacy: `pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_core_sci_sm-0.2.4.tar.gz`
     
 * Download GORC using the script `examples/download_gorc.py`
