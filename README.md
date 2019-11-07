@@ -48,7 +48,9 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
 
     [AWS CreateAccessKey Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
 
-2. If you are using AWS CLI
+2. Complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access. We will email you to confirm access granted.
+
+3. If you are using AWS CLI
 
 * To download the manifest file:
 
@@ -58,7 +60,7 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
 
     `aws s3 cp --recursive s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
 
-3. If you are using Python:
+4. If you are using Python:
 
 * Setup an environment (below example uses Miniconda)
     * Download the Miniconda installer for your OS: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
