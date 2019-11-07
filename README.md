@@ -30,7 +30,7 @@ The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all av
     ]
 }
 ```
-The full corpus consists of 10000 files, and is around 200GB compressed.
+The full corpus consists of 10000 files, and is around 200GB compressed (and 870GB uncompressed).
 
 WARNING: At current S3 transfer costs, downloading all of GORC should cost < 10USD. 
 
