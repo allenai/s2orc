@@ -11,54 +11,15 @@ To gain access to this bucket, create an AWS account and fill out this access re
 
 Use of this data is subject to the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 
-## Data organization
-
-The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files available for download.  It looks like:
-```
-{
-    "release_date": "2019-09-28",
-    "num_files": 10000,
-    "files": [
-        {
-            "filename": "20190928/papers/0.jsonl.tar.gz",
-            "num_items": 8259,
-            "seq_num": 0,
-            "size": 21351079,
-            "md5sum": "3a9df3bb0a7cb42e43d8661950f98dad"
-        },
-        {
-            "filename": "20190928/papers/1.jsonl.tar.gz",
-            "num_items": 8100,
-            "seq_num": 1,
-            "size": 20675164,
-            "md5sum": "d13c2d0ae06a854eb7a8d295d9fecb61"
-        },
-        ...
-    ]
-}
-```
-
 The full corpus consists of 10000 zipped files, and is around 205GB.
+
+The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files for download.
 
 ## Download instructions
 
 1. Complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access. We will email you to confirm access granted.
 
-2. If you are using AWS CLI ([documentation](https://aws.amazon.com/cli/)):
-
-* To download the manifest file:
-
-    `aws s3 cp s3://ai2-s2-gorc-release/20190928/manifest.json gorc/`
-
-* To download all GORC data files:
-
-    `mkdir gorc/`
-    
-    `aws s3 sync s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
-
-3. If you are using Python:
-
-Example code located in `examples/` uses the boto3 library to access AWS S3, more documentation [here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html).
+2. Download GORC data using Python:
 
 * Setup an environment (below example uses Miniconda)
     * Download the Miniconda installer for your OS: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
@@ -66,6 +27,21 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
     * Add conda path to $PATH variable
     * Create a conda environment: `conda create -n gorc -y python==3.7`
     * Activate environment: `conda activate gorc`
-    * Install requirements: `pip install -r requirements.txt`
+
+* Install requirements:
     
-* Download GORC using the script `examples/download_gorc.py`
+    `pip install -r requirements.txt`
+    
+* Run setup.py:
+    
+    `python setup.py develop`
+    
+* Download GORC:
+ 
+    `python ./examples/download_gorc.py`
+
+3. Download GORC using AWS CLI ([documentation](https://aws.amazon.com/cli/)):
+
+    `mkdir gorc/`
+    
+    `aws s3 sync s3://ai2-s2-gorc-release/20190928/papers/ gorc/`

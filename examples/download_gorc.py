@@ -11,6 +11,7 @@ Files are downloaded into the data directory,
 import os
 import json
 import boto3
+import tqdm
 
 from config import S3_SETTINGS
 from api.s3_utils import download_from_s3
@@ -36,6 +37,7 @@ with open(local_manifest_file, 'r') as f:
     manifest = json.load(f)
 
 # download all files
-for file_entry in manifest['files']:
+print(f"downloading {len(manifest['files'])} files...")
+for file_entry in tqdm.tqdm(manifest['files']):
     local_gorc_file = os.path.join(LOCAL_GORC_DIR, file_entry['filename'])
     download_from_s3(bucket, file_entry['filename'], local_gorc_file)
