@@ -12,11 +12,10 @@ import os
 import json
 import boto3
 
-from config import S3_SETTINGS
+from config import S3_BUCKET_NAME, CURRENT_VERSION
 from api.s3_utils import download_from_s3
 
 
-RELEASE_DATE = '20190928'
 LOCAL_GORC_DIR = 'gorc/'
 
 # GORC is currently open access
@@ -24,10 +23,10 @@ LOCAL_GORC_DIR = 'gorc/'
 # aws_attribs = {'RequestPayer': 'requester'}
 
 s3 = boto3.resource('s3')
-bucket = s3.Bucket(S3_SETTINGS['bucket'])
+bucket = s3.Bucket(S3_BUCKET_NAME)
 
 # download manifest file
-s3_manifest_file = f'{RELEASE_DATE}/manifest.json'
+s3_manifest_file = f'{CURRENT_VERSION}/manifest.json'
 local_manifest_file = os.path.join(LOCAL_GORC_DIR, 'manifest.json')
 download_from_s3(bucket, s3_manifest_file, local_manifest_file)
 
