@@ -17,31 +17,37 @@ The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all av
 
 ## Download instructions
 
-1. Complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access. We will email you to confirm access granted.
+First, please complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access. We will email you to confirm access granted.
 
-2. Download GORC data using Python:
+### Download GORC data using Python:
 
-* Setup an environment (below example uses Miniconda)
+1. Setup an environment (below example uses Miniconda)
     * Download the Miniconda installer for your OS: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
     * Run `bash Miniconda-3.5.5-MacOSX-x86_64.sh` to install
     * Add conda path to $PATH variable
     * Create a conda environment: `conda create -n gorc -y python==3.7`
     * Activate environment: `conda activate gorc`
 
-* Install requirements:
+2. Install requirements:
     
     `pip install -r requirements.txt`
     
-* Run setup.py:
+3. Run setup.py:
     
     `python setup.py develop`
     
-* Download GORC:
+4. Download GORC:
  
     `python ./examples/download_gorc.py`
 
-3. Download GORC using AWS CLI ([documentation](https://aws.amazon.com/cli/)):
+### Download GORC using AWS CLI 
+
+1. Create a folder for the data:
 
     `mkdir gorc/`
     
+2. Download GORC:
+    
     `aws s3 sync s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
+    
+AWS CLI [documentation](https://aws.amazon.com/cli/)
