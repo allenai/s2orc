@@ -7,8 +7,6 @@ Full text and citation contexts are available for 8.1M papers. Abstracts are ava
 
 The dataset is located in the S3 bucket `s3://ai2-s2-gorc-release/`. 
 
-To gain access to this bucket, please set up an AWS count if you do not have one already and complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform).
-
 Use of this data is subject to the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 
 ## Data organization
@@ -48,9 +46,7 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
 
     [AWS CreateAccessKey Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
 
-2. Complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access. We will email you to confirm access granted.
-
-3. If you are using AWS CLI
+2. If you are using AWS CLI
 
 * To download the manifest file:
 
@@ -58,9 +54,10 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
 
 * To download all GORC data files:
 
-    `aws s3 cp --recursive s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
+    `mkdir gorc/`
+    `aws s3 sync s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
 
-4. If you are using Python:
+3. If you are using Python:
 
 * Setup an environment (below example uses Miniconda)
     * Download the Miniconda installer for your OS: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
