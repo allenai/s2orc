@@ -5,11 +5,9 @@
 The Semantic Scholar Graph of References in Context (GORC) dataset is a literature graph of 81.0M academic publications and 380.5M citation edges. 
 Full text and citation contexts are available for 8.1M papers. Abstracts are available for 73.4M papers.
 
-The dataset can be downloaded from the S3 requester pays bucket `s3://ai2-s2-gorc-release/`. 
-The manifest file `s3://ai2-s2-gorc-release/s2-gorc-manifest.json` lists all available files available for download.
-The full corpus consists of 10000 files, and is around 870GB.
-
-WARNING: At current S3 transfer costs, downloading all of GORC should cost around 20USD. 
+The dataset can be downloaded from the S3 bucket `s3://ai2-s2-gorc-release/`. 
+The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files available for download.
+The full corpus consists of 10000 files, and is around 870GB uncompressed and 200G compressed.
 
 Example code located in `examples/` uses the boto3 library to access AWS S3, more documentation [here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html).
 
@@ -23,11 +21,11 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
 
 * To download the manifest file:
 
-    `aws s3 cp --request-payer requester s3://ai2-s2-gorc-release/s2-gorc-manifest.json gorc/`
+    `aws s3 cp s3://ai2-s2-gorc-release/20190928/manifest.json gorc/`
 
 * To download all GORC data files:
 
-    `aws s3 cp --recursive --request-payer requester s3://ai2-s2-gorc-release/20190928/ gorc/`
+    `aws s3 cp --recursive s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
 
 3. If you are using Python:
 
@@ -38,5 +36,6 @@ Example code located in `examples/` uses the boto3 library to access AWS S3, mor
     * Create a conda environment: `conda create -n gorc -y python==3.7`
     * Activate environment: `conda activate gorc`
     * Install requirements: `pip install -r requirements.txt`
+    * Install scispacy: `pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_core_sci_sm-0.2.4.tar.gz`
     
 * Download GORC using the script `examples/download_gorc.py`

@@ -1,6 +1,6 @@
 """
 This script downloads the GORC corpus to disk
-WARNING: You will need 870GB of disk space to store all of GORC!
+WARNING: You will need around 200G of disk space to store all of GORC
 
 You will need to setup AWS access locally before you can download any files from an S3 bucket
 See README.md for instructions.
@@ -12,19 +12,24 @@ import os
 import json
 import boto3
 
-S3_BUCKET = 'ai2-s2-gorc-release'
-LOCAL_GORC_DIR = 'data/'
+from config import S3_SETTINGS
+from api.s3_utils import download_from_s3
 
-# GORC is located in a requester pays bucket
-# You will be charged for access.
-aws_attribs = {'RequestPayer': 'requester'}
+
+RELEASE_DATE = '20190928'
+LOCAL_GORC_DIR = 'gorc/'
+
+# GORC is currently open access
+# Uncomment the following and add to download specification for requester pays access
+# aws_attribs = {'RequestPayer': 'requester'}
 
 s3 = boto3.resource('s3')
-bucket = s3.Bucket(S3_BUCKET)
+bucket = s3.Bucket(S3_SETTINGS['bucket'])
 
 # download manifest file
-local_manifest_file = os.path.join(LOCAL_GORC_DIR, 's2-gorc-manifest.json')
-bucket.download_file('s2-gorc-manifest.json', local_manifest_file, aws_attribs)
+s3_manifest_file = f'{RELEASE_DATE}/manifest.json'
+local_manifest_file = os.path.join(LOCAL_GORC_DIR, 'manifest.json')
+download_from_s3(bucket, s3_manifest_file, local_manifest_file)
 
 # read manifest file
 with open(local_manifest_file, 'r') as f:
@@ -33,4 +38,4 @@ with open(local_manifest_file, 'r') as f:
 # download all files
 for file_entry in manifest['files']:
     local_gorc_file = os.path.join(LOCAL_GORC_DIR, file_entry['filename'])
-    bucket.download_file(file_entry['filename'], local_gorc_file)
+    download_from_s3(bucket, file_entry['filename'], local_gorc_file)
