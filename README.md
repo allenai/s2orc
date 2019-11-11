@@ -147,7 +147,7 @@ The JSON schema for each paper is given below:
             "suffix": "suffix_name"
           }
         ],
-        "year": int,
+        "year": 2019,
         "venue": "venue_string",
         "volume": "volume_string",
         "issn": "issue_number_string",
