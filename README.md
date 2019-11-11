@@ -9,13 +9,13 @@ See [our arXiv preprint](https://arxiv.org/abs/1911.02782) for details.
 
 ## Download instructions
 
-First, please complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access to the S3 bucket.  We will email you to confirm access granted.
+First, please complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access to the S3 bucket. You will need an AWS account to access the S3 bucket `s3://ai2-s2-gorc-release/`. We will email you to confirm access granted.
 
-You'll need an AWS account to access the S3 bucket `s3://ai2-s2-gorc-release/`.  The full corpus consists of 10000 zipped files, and is around 205GB.  The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files for download.
-
+The full corpus consists of 10000 zipped files, and is around 205GB. The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files for download.
 
 Use of this data is subject to the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 
+The metadata file `s3://ai2-s2-gorc-release/20190928/metadata.tsv.gz` contains metadata about all papers in GORC, including inbound/outbound citations, field of study information, and associated identifiers. A sample of this metadata is provided in `data/metadata_sample.tsv`.
 
 ### Download GORC data using Python:
 
@@ -38,7 +38,7 @@ Use of this data is subject to the [Semantic Scholar Dataset License](http://api
  
     `python ./examples/download_gorc.py`
 
-### Download GORC using AWS CLI 
+### Download GORC using AWS CLI ([documentation](https://aws.amazon.com/cli/))
 
 1. Create a folder for the data:
 
@@ -47,10 +47,8 @@ Use of this data is subject to the [Semantic Scholar Dataset License](http://api
 2. Download GORC:
     
     `aws s3 sync s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
-    
-AWS CLI [documentation](https://aws.amazon.com/cli/)
 
-### Citation
+## Citation
 
 If using this dataset, please cite our arXiv preprint:
 
@@ -62,5 +60,105 @@ If using this dataset, please cite our arXiv preprint:
     eprint={1911.02782},
     archivePrefix={arXiv},
     primaryClass={cs.CL}
+}
+```
+
+## Example data
+
+A sample of GORC data is provided in `data/example_papers.jsonl`. 
+
+The JSON schema for each paper is given below:
+
+```json
+{
+  "paper_id": "paper_id",
+  "metadata": {
+    "title": "title_string",
+    "authors": [
+      {
+        "first": "first_name",
+        "middle": ["middle_name"],
+        "last": "last_name",
+        "suffix": "suffix_name"
+      }
+    ],
+    "abstract": "abtract_string",
+    "year": "year_string",
+    "arxiv_id": "arxiv_id_string",
+    "acl_id": "acl_id_string",
+    "pmc_id": "pmc_id_string",
+    "pubmed_id": "pubmed_id_string",
+    "doi": "doi_string",
+    "venue": "venue_string",
+    "journal": "journal_string"
+  },
+  "s2_pdf_hash": "s2_pdf_hash",
+  "grobid_parse": {
+    "abstract": [
+      {
+        "text": "abstract_string",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": null,
+        "section": "Abstract"
+      }
+    ],
+    "body_text": [
+      {
+        "text": "paragraph_string",
+        "cite_spans": [
+          {
+            "start": 15,
+            "end": 18,
+            "text": "cite_span_text",
+            "latex": null,
+            "ref_id": "bibkey (index for bib_entries)"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 0,
+            "end": 8,
+            "text": "ref_span_text",
+            "latex": null,
+            "ref_id": "refkey (index for ref_entries)"
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      }
+    ],
+    "ref_entries": {
+      "refkey": {
+        "text": "ref_string",
+        "latex": null,
+        "type": "ref_type (figure, table, equation, etc)"
+      }
+    },
+    "bib_entries": {
+      "bibkey": {
+        "ref_id": "string",
+        "title": "title_string",
+        "authors": [
+          {
+            "first": "first_name",
+            "middle": [],
+            "last": "last_name",
+            "suffix": "suffix_name"
+          }
+        ],
+        "year": int,
+        "venue": "venue_string",
+        "volume": "volume_string",
+        "issn": "issue_number_string",
+        "pages": "pages_string",
+        "other_ids": {
+          "doi": ["doi_string"]
+        },
+        "links": "linked_paper_id"
+      }
+    }
+  },
+  "latex_parse": null
 }
 ```
