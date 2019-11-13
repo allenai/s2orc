@@ -9,7 +9,7 @@ See [our arXiv preprint](https://arxiv.org/abs/1911.02782) for details.
 
 ## Download instructions
 
-First, please complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSeNeo4UBeRoe1taaN3oJ1Fr1BZokVs3vVo18mvfc0Lhnw7n1g/viewform) to request access to the S3 bucket. You will need an AWS account to access the S3 bucket `s3://ai2-s2-gorc-release/`. We will email you to confirm access granted.
+You will need an AWS account to access the S3 bucket `s3://ai2-s2-gorc-release/`.
 
 The full corpus consists of 10000 zipped files, and is around 205GB. The manifest file `s3://ai2-s2-gorc-release/20190928/manifest.json` lists all available files for download.
 
@@ -162,3 +162,7 @@ The JSON schema for each paper is given below:
   "latex_parse": null
 }
 ```
+
+## Contact
+
+Questions/Feedback: `{kylel, lucyw}@allenai.org`
