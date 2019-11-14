@@ -48,6 +48,12 @@ The metadata file `s3://ai2-s2-gorc-release/20190928/metadata.tsv.gz` contains m
     
     `aws s3 sync s3://ai2-s2-gorc-release/20190928/papers/ gorc/`
 
+## Contact / Feedback
+
+We'd love to hear how you're using this dataset and any feedback you might have.  Please fill out the Google Form [here](https://forms.gle/vB4T481sd65rfnir8).  This is completely optional, but we'd really appreciate it since this information will inform how we'll maintain the project going forward.  Thanks!
+
+If you'd prefer to email, contact us at:  `{kylel, lucyw}@allenai.org`
+
 ## Citation
 
 If using this dataset, please cite our arXiv preprint:
@@ -162,7 +168,3 @@ The JSON schema for each paper is given below:
   "latex_parse": null
 }
 ```
-
-## Contact
-
-Questions/Feedback: `{kylel, lucyw}@allenai.org`
