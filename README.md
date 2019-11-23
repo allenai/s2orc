@@ -2,14 +2,14 @@
 
 **Latest release: 2019-09-28**
 
-The Semantic Scholar Graph of References in Context (GORC) dataset is a literature graph of 81.0M academic publications and 380.5M citation edges. 
-Full text and citation contexts are available for 8.1M papers. Abstracts are available for 73.4M papers.
+The Semantic Scholar Graph of References in Context (GORC) dataset is a citation graph of 81.1M academic publications and 380.5M citation edges.
+Abstracts are available for 73.4M papers.  Full text and citation contexts are available for 8.1M papers.  Citation contexts are linked to their corresponding paper in the graph.
 
 See [our arXiv preprint](https://arxiv.org/abs/1911.02782) for details.
 
 ## Contact / Feedback
 
-We'd love to hear how you're using this dataset and any feedback you might have.  [Please fill out this Google Form](https://forms.gle/vB4T481sd65rfnir8).  This is completely optional, but we'd really appreciate it since this information will inform how we'll maintain the project going forward.  Thanks!
+We'd love to hear how you're using this dataset and any feedback you might have: [Please fill out this Google Form](https://forms.gle/vB4T481sd65rfnir8).  This is completely optional, but we'd really appreciate it since this information will inform how we'll maintain the project going forward.  Thanks!
 
 If you'd prefer to email, contact us at:  `{kylel, lucyw}@allenai.org`
 
