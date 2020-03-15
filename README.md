@@ -22,7 +22,7 @@ The full corpus consists of 10000 zipped files, and is around 205GB. The manifes
 
 Use of this data is subject to the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 
-The metadata file `s3://ai2-s2-gorc-release/20190928/metadata.tsv.gz` contains metadata about all papers in GORC, including inbound/outbound citations, field of study information, and associated identifiers. A sample of this metadata is provided in `data/metadata_sample.tsv`.
+We also provide metadata files for each of the 10000 zipped batches at `s3://ai2-s2-gorc-release/20190928/metadata/`.  These files include inbound/outbound citations, field of study information, and associated identifiers.  A sample of this metadata is provided in `data/metadata_sample.tsv`.
 
 ### Download GORC data using Python:
 
