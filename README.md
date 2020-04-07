@@ -1,8 +1,14 @@
-# Semantic Scholar GORC Corpus
+# S2ORC
+
+**Update: 2020-04-07**
+
+- S2ORC has been accepted to ACL 2020!  
+- We've changed the name of the project to S2ORC.  We will update the linked preprint shortly.
+- As it is costly to migrate large amounts of data, the latest release 2019-09-28 is still downloadable from AWS via `s3://ai2-s2-gorc-release/`.  We'll add future releases to a new S3 bucket, but the older one will remain up.
 
 **Latest release: 2019-09-28**
 
-The Semantic Scholar Graph of References in Context (GORC) dataset is a citation graph of 81.1M academic publications and 380.5M citation edges.
+The S2ORC dataset is a citation graph of 81.1M academic publications and 380.5M citation edges.
 Abstracts are available for 73.4M papers.  Full text and citation contexts are available for 8.1M papers.  Citation contexts are linked to their corresponding paper in the graph.
 
 See [our arXiv preprint](https://arxiv.org/abs/1911.02782) for details.
@@ -160,15 +166,14 @@ The JSON schema for each paper is given below:
 
 ## Citation
 
-If using this dataset, please cite our arXiv preprint:
+If using this dataset, please cite:
 
 ```
-@misc{lo2019gorc,
-    title={GORC: A large contextual citation graph of academic papers},
-    author={Kyle Lo and Lucy Lu Wang and Mark Neumann and Rodney Kinney and Dan S. Weld},
-    year={2019},
-    eprint={1911.02782},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@inproceedings{lo-wang-2020-s2orc,
+    title={S2ORC: The Semantic Scholar Open Research Corpus},
+    author={Kyle Lo and Lucy Lu Wang and Mark Neumann and Rodney Kinney and Daniel S. Weld},
+    year={2020},
+    booktitle={Proceedings of ACL},
+    url={https://arxiv.org/abs/1911.02782}
 }
 ```
