@@ -2,9 +2,10 @@
 
 **Update: 2020-04-07**
 
-- S2ORC has been accepted to ACL 2020!  
-- We've changed the name of the project to S2ORC.  We will update the linked preprint shortly.
-- As it is costly to migrate large amounts of data, the latest release 2019-09-28 is still downloadable from AWS via `s3://ai2-s2-gorc-release/`.  We'll add future releases to a new S3 bucket, but the older one will remain up.
+- S2ORC has been accepted to ACL 2020!
+- We've changed the name of the project to S2ORC.  We will update the [preprint](https://arxiv.org/abs/1911.02782) shortly with the new name.
+- The [BibTeX citation](#citation) has also been changed to reflect this.
+- As it is costly to migrate large amounts of data, the latest release 2019-09-28 will remain downloadable from AWS via its original bucket `s3://ai2-s2-gorc-release/`.  We'll be add future releases to a new S3 bucket (TBD), but the older one will remain accessible.
 
 **Latest release: 2019-09-28**
 
