@@ -1,4 +1,4 @@
-# S2ORC
+# S2ORC: The Semantic Scholar Open Research Corpus
 
 **Update: 2020-04-07**
 
