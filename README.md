@@ -16,10 +16,11 @@ See [our arXiv preprint](https://arxiv.org/abs/1911.02782) for details.
 
 ## Contact / Feedback
 
+Email: `{kylel, lucyw}@allenai.org`
+
+IRC: `#s2orc` at `irc.oftc.net`
+
 We'd love to hear how you're using this dataset and any feedback you might have: [Please fill out this Google Form](https://forms.gle/vB4T481sd65rfnir8).  This is completely optional, but we'd really appreciate it since this information will inform how we'll maintain the project going forward.  Thanks!
-
-If you'd prefer to email, contact us at:  `{kylel, lucyw}@allenai.org`
-
 
 ## Download instructions
 
