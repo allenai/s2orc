@@ -172,7 +172,7 @@ If using this dataset, please cite:
 
 ```
 @inproceedings{lo-wang-2020-s2orc,
-    title={S2ORC: The Semantic Scholar Open Research Corpus},
+    title={{S2ORC}: The {S}emantic {S}cholar {O}pen {R}esearch {C}orpus},
     author={Kyle Lo and Lucy Lu Wang and Mark Neumann and Rodney Kinney and Daniel S. Weld},
     year={2020},
     booktitle={Proceedings of ACL},
