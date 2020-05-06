@@ -1,0 +1,1706 @@
+{
+  "paper_id": "15772371",
+  "metadata": {
+    "title": "Artificial diets for rearing the Colorado potato beetle, Leptinotarsa decemlineata",
+    "authors": [
+      {
+        "first": "Dale",
+        "middle": [
+          "B."
+        ],
+        "last": "Gelman",
+        "suffix": ""
+      },
+      {
+        "first": "Robert",
+        "middle": [
+          "A."
+        ],
+        "last": "Bell",
+        "suffix": ""
+      },
+      {
+        "first": "Lynda",
+        "middle": [
+          "J."
+        ],
+        "last": "Liska",
+        "suffix": ""
+      },
+      {
+        "first": "Jing",
+        "middle": [
+          "S."
+        ],
+        "last": "Hu",
+        "suffix": ""
+      }
+    ],
+    "abstract": "Abstract Colorado potato beetles have been reared successfully through 12 generations on artificial diets containing either 2.5% potato leaf powder or 2.5% lettuce leaf powder/0.75% potato leaf powder. For all but one of the treatment groups, the mean duration of each of the four larval stages was between 0.8 and 1.5 days longer than the durations exhibited by control beetles that had been fed on potato leaves. Maximum weights of prepupae, newly emerged adults and day 5 – 9 adults were approximately 78, 80 and 82%, respectively, of the weights for comparable stages of control beetles. Mean percent mortality for 1st instars was two to six times higher for artificial diet-fed CPBs than for leaf-fed beetles. However, since pupal mortality was four times higher for control beetles than for beetles reared on artificial diet, mean percent total mortality (newly hatched through the 9 day old adult) was equivalent for leaf-fed beetles and for later generations of potato and Lettuce+Potato diet-fed CPBs. Hemolymph ecdysteroid levels and fluctuations in mature 4th instar larvae and prepupae were similar in controls and experimental groups. Number of hatchlings produced per adult pair per day (fertility) was approximately eight times greater in control beetles than in later generations of artificial diet-fed beetles, primarily because fewer egg masses were laid per day, percent hatch was lower and cannibalism of eggs was higher in these latter groups. Interestingly, the mean percent hatch, although only 68% of the control value, was 1.5 times greater for beetles reared on diet containing lettuce-leaf powder, and a small percentage of potato leaf powder, than on diet containing only potato leaf powder. Percent hatch was equal for beetles fed on diet containing only lettuce-leaf powder and those fed on potato leaves. Finally, it is noteworthy that the quality of eggs, as judged by the ability of the wasp parasitoid, Edovum puttleri, to parasitize and develop in the eggs, was similar for eggs produced by control beetles and for those produced by beetles fed on potato and Lettuce+Potato diets. The diets and rearing system described here will be useful for providing beetles on a year-round basis for experiments designed to evaluate the effects of potential insect control agents, to investigate the mechanism(s) by which insects become resistant to control agents and for other applied and fundamental studies related to the control of this serious pest. The use of lettuce leaf powder in place of most of the potato leaf powder is especially advantageous because of the much reduced cost and greater availability of lettuce as compared to potato leaves.",
+    "year": "2001",
+    "arxiv_id": null,
+    "acl_id": null,
+    "pmc_id": "PMC355891",
+    "pubmed_id": "15455067",
+    "doi": "10.1673/031.001.0701",
+    "venue": "Journal of Insect Science",
+    "journal": "Journal of Insect Science"
+  },
+  "s2_pdf_hash": "863fb8d46d6d9ade01d49b7d5e011e44a64a0aee",
+  "grobid_parse": {
+    "abstract": [
+      {
+        "text": "AbstractColorado potato beetles have been reared successfully through 12 generations on artificial diets containing either 2.5% potato leaf powder or 2.5% lettuce leaf powder/0.75% potato leaf powder. For all but one of the treatment groups, the mean duration of each of the four larval stages was between 0.8 and 1.5 days longer than the durations exhibited by control beetles that had been fed on potato leaves. Maximum weights of prepupae, newly emerged adults and day 5 -9 adults were approximately 78, 80 and 82%, respectively, of the weights for comparable stages of control beetles. Mean percent mortality for 1 st instars was two to six times higher for artificial diet-fed CPBs than for leaf-fed beetles. However, since pupal mortality was four times higher for control beetles than for beetles reared on artificial diet, mean percent total mortality (newly hatched through the 9 day old adult) was equivalent for leaf-fed beetles and for later generations of potato and Lettuce+Potato diet-fed CPBs. Hemolymph ecdysteroid levels and fluctuations in mature 4 th instar larvae and prepupae were similar in controls and experimental groups. Number of hatchlings produced per adult pair per day (fertility) was approximately eight times greater in control beetles than in later generations of artificial diet-fed beetles, primarily because fewer egg masses were laid per day, percent hatch was lower and cannibalism of eggs was higher in these latter groups. Interestingly, the mean percent hatch, although only 68% of the control value, was 1.5 times greater for beetles reared on diet containing lettuce-leaf powder, and a small percentage of potato leaf powder, than on diet containing only potato leaf powder. Percent hatch was equal for beetles fed on diet containing only lettuce-leaf powder and those fed on potato leaves.Finally, it is noteworthy that the quality of eggs, as judged by the ability of the wasp parasitoid, Edovum puttleri, to parasitize and develop in the eggs, was similar for eggs produced by control beetles and for those produced by beetles fed on potato and Lettuce+Potato diets. The diets and rearing system described here will be useful for providing beetles on a year-round basis for experiments designed to evaluate the effects of potential insect control agents, to investigate the mechanism(s) by which insects become resistant to control agents and for other applied and fundamental studies related to the control of this serious pest. The use of lettuce leaf powder in place of most of the potato leaf powder is especially advantageous because of the much reduced cost and greater availability of lettuce as compared to potato leaves.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": "Abstract"
+      }
+    ],
+    "body_text": [
+      {
+        "text": "The Colorado potato beetle (CPB) is an exceptionally destructive pest of potatoes, eggplant and tomatoes in North America and in Europe (Schalk and Stoner, 1979; Hare, 1980; 1990; Puttler and Long, 1983 ). Control of CPB, which is typically by pesticide application, costs growers hundreds of millions of dollars each year (Schroder and Athanas, 1989) .Efforts to reduce the use of conventional chemical pesticides because of their negative impact on the ecosystem has resulted in increased emphasis on the use of biological control agents for insect management and increased pressure to develop new pesticides, such as insect growth regulators and fungal pathogens, with reduced environmental toxicity. Predatory bugs such as Perillus bioculatus and Podisus maculiventris (Hoffmann and Frodsham, 1993; Hough-Goldstein and McPherson, 1996; Biever and Chauvin, 1992; Aldrich and Cantello, 2000) and the wasp parasitoid, Edovum puttleri (Puttler and Long, 1983; Ruberson, et al., 1987 , Williams, 1987 and Schroder and Athanas, 1989 have been studied as biological control agents. E. puttleri has been used successfully to control CPB on eggplant (Williams, 1987) . However, the cost of rearing this parasitoid is very high, primarily because rearing host potato plants for the CPB is very costly and labor intensive. Researchers have undertaken to develop artificial diets for rearing E. puttleri, P. bioculatus and P. maculoventris (Hu et al. 1998; 1999a; in press; De Clercq et al., 1998; Rojas et al., 2000; Wittmeyer et al., in press ), but diets must still be improved to provide high quality insects and to increase fecundity. A complementary or alternate approach would be to develop an artificial diet for the CPB. Such a diet would be exceptionally useful for maintaining colonies of beetles year round, for using diet-reared beetles as a food source in the mass rearing of natural enemies and for determining the effectiveness of test compounds by incorporating these compounds into the diet. Artificial diets for CPBs have been reported in the literature (Wardojo, 1969; Hsiao and Frankel, 1968; Domek et al., 1997) . However, these diets were not satisfactory because they were either unable to support the growth and development of all CPB stages, only able to support the growth and development of a few generations of beetles, or too expensive and/or labor intensive to be costeffective. In these studies, we undertook to develop an economical, artificial diet that would permit year-round rearing of CPB. Here we report the development of two diets, diets that have supported the growth of beetles through twelve generations.",
+        "cite_spans": [
+          {
+            "start": 136,
+            "end": 161,
+            "text": "(Schalk and Stoner, 1979;",
+            "latex": null,
+            "ref_id": "BIBREF24"
+          },
+          {
+            "start": 162,
+            "end": 173,
+            "text": "Hare, 1980;",
+            "latex": null,
+            "ref_id": "BIBREF10"
+          },
+          {
+            "start": 174,
+            "end": 179,
+            "text": "1990;",
+            "latex": null,
+            "ref_id": "BIBREF11"
+          },
+          {
+            "start": 180,
+            "end": 202,
+            "text": "Puttler and Long, 1983",
+            "latex": null,
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 323,
+            "end": 351,
+            "text": "(Schroder and Athanas, 1989)",
+            "latex": null,
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 773,
+            "end": 802,
+            "text": "(Hoffmann and Frodsham, 1993;",
+            "latex": null,
+            "ref_id": "BIBREF12"
+          },
+          {
+            "start": 803,
+            "end": 839,
+            "text": "Hough-Goldstein and McPherson, 1996;",
+            "latex": null,
+            "ref_id": "BIBREF13"
+          },
+          {
+            "start": 840,
+            "end": 865,
+            "text": "Biever and Chauvin, 1992;",
+            "latex": null,
+            "ref_id": "BIBREF1"
+          },
+          {
+            "start": 866,
+            "end": 893,
+            "text": "Aldrich and Cantello, 2000)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 935,
+            "end": 959,
+            "text": "(Puttler and Long, 1983;",
+            "latex": null,
+            "ref_id": "BIBREF19"
+          },
+          {
+            "start": 960,
+            "end": 982,
+            "text": "Ruberson, et al., 1987",
+            "latex": null,
+            "ref_id": "BIBREF21"
+          },
+          {
+            "start": 983,
+            "end": 999,
+            "text": ", Williams, 1987",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 1000,
+            "end": 1030,
+            "text": "and Schroder and Athanas, 1989",
+            "latex": null,
+            "ref_id": "BIBREF22"
+          },
+          {
+            "start": 1145,
+            "end": 1161,
+            "text": "(Williams, 1987)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 1432,
+            "end": 1448,
+            "text": "(Hu et al. 1998;",
+            "latex": null,
+            "ref_id": "BIBREF15"
+          },
+          {
+            "start": 1449,
+            "end": 1455,
+            "text": "1999a;",
+            "latex": null,
+            "ref_id": "BIBREF16"
+          },
+          {
+            "start": 1456,
+            "end": 1465,
+            "text": "in press;",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 1466,
+            "end": 1489,
+            "text": "De Clercq et al., 1998;",
+            "latex": null,
+            "ref_id": "BIBREF2"
+          },
+          {
+            "start": 1490,
+            "end": 1509,
+            "text": "Rojas et al., 2000;",
+            "latex": null,
+            "ref_id": "BIBREF20"
+          },
+          {
+            "start": 1510,
+            "end": 1536,
+            "text": "Wittmeyer et al., in press",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 2065,
+            "end": 2080,
+            "text": "(Wardojo, 1969;",
+            "latex": null,
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 2081,
+            "end": 2105,
+            "text": "Hsiao and Frankel, 1968;",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 2106,
+            "end": 2125,
+            "text": "Domek et al., 1997)",
+            "latex": null,
+            "ref_id": "BIBREF4"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "The Colorado potato beetle, Leptinotarsa, decimlineata Say (Coleoptera: Chrysomelidae) colony, originally provided by the New Jersey Department of Agriculture, was reared on potato plants at room temperature under a light:dark regimen of L:D 16:8 in walkin incubator chambers or in small cages at the Beltsville Agricultural Research Center. Each day, new plants were provided to the colony. Supplemental wild type CPB were obtained from potato field plots located at the research center. Insect colonies were maintained on Superior as well as the slower maturing Kennebec variety of potato. Seed potatoes were purchased in October-December and stored at 2-3 o C to terminate dormancy and initiate uniform sprouting upon transfer to warm temperatures (15) (16) (17) (18) (19) (20) For experimental tests, plant-reared CPB were fed on small bouquets of potato leaves, the stems of which had been placed in 20 ml vials of water. Appropriate-sized openings were cut into the bottoms of 6 oz plastic cups (WL Enterprises, Inc. Newark, NJ, USA, #026X clear 00090) so that the vial neck which had been fitted with a rubber ring would form a secure seal with the edges of the opening in the cup. The leaves protruded into the cup which was covered with a transparent plastic lid that had been punctured with pin-sized holes to allow for air flow. Thus, beetles were caged individually within the cups during the experiment. Cups were placed in controlled environmental chambers at 25 ± 1 o C, RH of 70%, L:D 14:10 and a light intensity of 600 lux. Egg masses were collected and stored as described for diet-fed beetles.",
+        "cite_spans": [
+          {
+            "start": 751,
+            "end": 755,
+            "text": "(15)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 756,
+            "end": 760,
+            "text": "(16)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 761,
+            "end": 765,
+            "text": "(17)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 766,
+            "end": 770,
+            "text": "(18)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 771,
+            "end": 775,
+            "text": "(19)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 776,
+            "end": 780,
+            "text": "(20)",
+            "latex": null,
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Colony and experimental egg masses of the CPB were maintained on filter paper (Whatman #1) in 100 x 15 mm and Falcon 50 x 9 mm (PGC Scientific, Frederick, MD, USA, (#29-4285) plastic petri dishes, respectively. The dishes were held in incubators at 25 ± 1 o C, 75-80% RH and L:D 16:8. Under these conditions, the eggs hatched in 4-5 days. Newly hatched to 18-h old larvae were placed onto small blocks of diet. Cubes of diet (approximately 18 x 12 x 6 mm for 1 st and 2 nd instars and 18 x 12 x 12 mm for 3 rd and 4 th instars and adults) were placed on small pieces of weighing paper (slightly larger than the diet piece) in 50 x 9 mm (1 st and 2 nd instars) and 60 x 20 mm (3 rd and 4 th instars and adults) petri dishes, the bottom of which had been covered with white filter paper (Whatman #1). The filter paper trapped the CPB wastes and the weighing paper prevented the filter paper from absorbing water from the diet. Beetles were placed on fresh diet in new petri dishes on Monday, Wednesday and Friday of each week. Prior to the weekend, a slightly larger diet cube was used. Petri dishes were maintained in incubators under the conditions described above. Until larvae became 2 nd instars, petri dishes were covered with a large piece of opaque paper so that larvae were encouraged to feed rather than to migrate toward the light. At the end of the 4 th (final) instar, larvae stop feeding, become light beige in color and leave the diet. These prepupae were transferred individually to 1 oz cups (Bioserve, Frenchtown, NJ, USA, #9052; matching lids = #9050) that were half full with slightly moistened potting soil (Promix, Meyer's Seed Co., Baltimore, MD) and then covered with transparent lids that had been punctured with 10-12 pin-sized holes. During pupal and pharate adult development, cups were maintained in incubators (25±1 o C, 75-80% RH and L:D 16:8). Newly emerged adults were placed individually in petri dishes as described above.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Adult beetles typically have an obligatory pre-oviposition period of 5 days during which time feeding, egg maturation and mating take place. The sex of adult beetles was determined by examining the ventral tip of the abdomen; males have a slight depression on the posterior ventral tip of the abdomen just anterior to the anal opening. On the 4 th -7 th day post-emergence, adult beetles were sexed and, on the 9 th -11 th day, mated; each pair was placed in a 60 x 20 mm petri dish which contained a diet cube. After mating, pieces of brown paper towel were stretched over the top of the petri dish under the lid. The circular piece of paper towel was cut large enough so that it protruded approximately 9 mm beyond the edge of the lid of the covered petri dish. The paper towel served as a medium for egg laying. Since beetles eat their own eggs, eggs were collected one or two times each day. A circular area was cut around the egg mass and the small circles of paper, each containing an egg mass, were stored individually in petri dishes (50 x 9 mm) lined with filter paper. Conditions for egg storage were the same as for beetle rearing. When excessive fungal or bacterial growth was observed eggs, beetle larvae and/or adults were surfaced sterilized prior to being stored or transferred to fresh diet. Surface sterilization was performed by placing beetles in weak Chlorox bleach (3 ml household chlorox in 97 ml of distilled water) for 2-3 minutes, rinsing them in distilled water and blotting them dry with paper toweling.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Potato leaf, lettuce leaf and tomato fruit powders are not commercially available and are prepared by the user. Our potato preparation was usually obtained from field-or greenhouse-grown \"Superior\" or \"Kennebec\" potatoes, although any common potato variety would probably be suitable. Leaves and petioles were removed 3-4 weeks after the plants had sprouted and before flowering. The fresh weight of the 6-8 leaves obtained from a typical plant had a wet weight of 100-200 grams, and a final dry weight of 10-20 grams. Fresh leaves were washed, placed in a convection oven at 60 o C, dried for 24 hours and ground to a fine powder in a 250 ml Waring stainless steel blender cup. The powder was sifted sequentially through 20 (850 microns) and 40 (420 microns) mesh strainers (Fisher Scientific, www.fishersci.com), and the process was repeated until almost all of the powder had been ground sufficiently to pass through the 40 mesh strainer. Lettuce leaf powder was prepared from store-bought Romaine lettuce. Leaves were washed, dried, ground and strained through mesh as described above. It was of paramount importance that all the water be removed from the potato and lettuce leaves prior to grinding. The tomato fruit powder was prepared from fresh tomatoes either collected from field plots or purchased locally. Tomatoes cut into small cubes were homogenized in the same blender that was used to prepare the potato powder. The homogenate was poured into pyrex baking dishes to a depth of 10 mm and dried for 24 -48 hours in a convection oven (64 o C). The dried tomato was placed in the blender and ground to a fine powder. Passage through mesh strainers was not necessary. The potato and lettuce leaf powders were stored in containers at room temperature until needed. The tomato fruit powder must be stored in air-tight jars as it has a greater tendency to absorb water than does the potato or lettuce leaf powder. The shelf life of the potato leaf and tomato fruit powder is at least 6 months. We have successfully used potato leaf powder that was stored for 12 months.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Four artificial diets were prepared as described in Table 1 , all of which were based on a diet developed by Forrester (APHIS-USDA, unpublished report, personal communication to R. A. Bell). The Potato diet contained potato leaf powder, the Lettuce diet contained lettuce leaf powder, and the Lettuce+Potato diet contained both leaf powders. All three also contained tomato fruit powder. The Lettuce diet and the Lettuce+Potato diet both contained the same amount of lettuce leaf powder, but the latter diet contained an additional 3.75 grams of potato leaf powder and 1.25 grams less of tomato fruit powder. The modified Forrester diet differed from the original Forrester diet in its tomato fruit powder and potato leaf powder content. The original diet contained 5 and 10 gms of these powders, respectively.All dry ingredients, except for the agar, were weighed and put in a common container. The combined ingredients, called the \"premix,\" were mixed in the blender at low speed for three 30 sec intervals so that ingredients were evenly distributed. The premix could be stored in sealed plastic bags for several weeks to exclude moisture. A 500 ml batch of diet was prepared in a 1-liter Waring stainless steel blender cup. Five hundred ml of water was poured into a beaker, placed in a microwave oven and brought to a full boil. It is very important to preheat the blender cup with very hot (preferably 180 o C) water prior to use. The hot water was quickly emptied from the blender and replaced with 384 ml of boiling water used to prepare the diet. With the blender operating at low speed (a rheostat can be used to control speed), the agar was added to the water. The agar was blended at very low RPM so that the water/ agar was held at a high temperature (85) (86) (87) o C. An oven-type thermometer can be used to insure that the desired temperature is obtained. The blended agar was then returned to a beaker and heated to boiling in a microwave oven (about 10 seconds at the \"High\" setting). With the aid of a pipette, the oil was dispensed into the diet and blended thoroughly. Finally, while gradually increasing the speed control, the pre-mix ingredients were added and blended for 1 min at high speed. Diet was poured into containers to a depth of about 12 mm, containers were covered with 2-ply soft paper toweling and allowed to cool for 40 -60 minutes. For holding and storage of the diet, various sizes of freezer containers (manufactured by Rubbermaid Co.) designed for food storage were used. Diet was covered tightly and stored in the refrigerator until needed. Freshly made diet provided the best results. The shelf (refrigerator) life of the diet was only 2 days. With longer storage times, the beetles did not feed as well (unpublished results).",
+        "cite_spans": [
+          {
+            "start": 1764,
+            "end": 1768,
+            "text": "(85)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 1769,
+            "end": 1773,
+            "text": "(86)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 1774,
+            "end": 1778,
+            "text": "(87)",
+            "latex": null,
+            "ref_id": null
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 52,
+            "end": 59,
+            "text": "Table 1",
+            "latex": null,
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "For each larval and pupal stage, the effects of a given diet on maximum weight (not determined for 1 st and 2 nd instars), stage duration and percent mortality were examined. For adults, the maximum weight, percent mortality and fecundity were also determined. The diet treatments were: plant leaves (control), Potato diet, Lettuce+Potato diet, and Lettuce diet. Results for parental and F 1 generations were combined (P-diet-I and PL-diet-I) and results for F 7 and F 8 (P-diet-II and PL-diet-II) generations were combined. For the diet containing only lettuce (Lettuce diet), only F 8 generation beetles were used; previous generations (P through F 7 ) had been reared on the Lettuce+Potato diet. Experimental beetles were examined daily through the 9 th day post-adult emergence. Instars were identified by head capsule width, the appearance of exuviae, and the black color of the pronotum and the anterior beige and posterior black stripe visible on the pronotum of the 3 rd and 4 th instars respectively (see Wardojo, 1969 for photographs). Prepupae were identified by the disappearance of black pigmentation (diet-fed beetles and leaf-fed beetles were light beige and reddish in color, respectively), their relative inactivity and the curved shape assumed by the beetle once it had entered the prepupal stage. Larvae [red with black markings and beige with black markings for plant and diet-reared beetles, respectively ( Fig. 1A) ] were weighed every other day, and since beetle development was not synchronous, there were sufficient beetles whose weights were determined the day before the molt to determine the mean maximum weight of each instar for each experimental treatment. For adults (also weighed every other day), the maximum weight observed for each beetle that had initiated feeding by day 7 post emergence was used in calculating the mean maximum weight. Beetles that had not initiated feeding by day 7 post emergence died sometime after day 10 post emergence. Adult beetles were sexed, and since the sex of the beetle influenced its weight, only those beetle larvae and pupae that reached the adult stage were included in the calculations for mean maximum weight of each of the stages. Mean duration and mean percent mortality were also determined. Since there was no significant difference in the durations for males and females of any given stage (determined for those that survived to adulthood), all larvae that had not died by the end of a given stage were used in the calculation of mean duration. For percent mortality, we could not determine the effect of sex, since the sex of beetle larvae and prepupae was not easily determined until they had molted to the adult.The number of egg masses laid per day, number of eggs per mass and percent hatch served as measures of relative reproductive function of parental and F 1 generations and F 7 and F 8 generations of beetles reared on the various diets. Data were not collected until 5 days after beetles had mated. As mentioned previously, egg masses were collected twice daily on weekdays and once per day on weekend days.",
+        "cite_spans": [
+          {
+            "start": 1014,
+            "end": 1027,
+            "text": "Wardojo, 1969",
+            "latex": null,
+            "ref_id": "BIBREF25"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 1428,
+            "end": 1436,
+            "text": "Fig. 1A)",
+            "latex": null,
+            "ref_id": "FIGREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Adult beetles that had not gained weight and had not defecated by day 9 post emergence were considered to be nonfeeders. For each treatment group, the percent of males and the percent of females that had not initiated feeding was determined. After day 9, each non-feeding beetle was placed on Potato diet and was maintained on this diet until either feeding was initiated or the beetle died. The percentage of beetles that initiated feeding was determined. Department of Agriculture, were reared as described in Hu et al. (1999b) . For parasitization, CPB egg masses were placed in small plastic Petri dishes, irradiated to destroy developing beetle embryos as described by Hu et al. (1999b) and placed in a jar containing approximately 500 7-14 day-old E. puttleri adults. After 2 h, parasitoids were removed. Egg masses produced by CPBs reared on plant leaves, Potato diet, Lettuce+Potato diet and the modified Forrester diet were compared. For the three treatment groups reared on artificial diet, F 2 and F 3 generation CPBs were used. Mean percent parasitization and adult emergence as well as mean adult weight and longevity were determined for wasps in the four treatment groups.",
+        "cite_spans": [
+          {
+            "start": 512,
+            "end": 529,
+            "text": "Hu et al. (1999b)",
+            "latex": null,
+            "ref_id": "BIBREF17"
+          },
+          {
+            "start": 674,
+            "end": 691,
+            "text": "Hu et al. (1999b)",
+            "latex": null,
+            "ref_id": "BIBREF17"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Hemolymph extraction was performed as described in Gelman and Woods (1983) . Briefly, beetles (F 2 and F 3 generation) were anaesthetized by placing them in petri dishes containing small pieces of dry ice. Five to 10 microliters of hemolymph collected from a severed leg were placed in 1.5ml microcentrifuge tubes that contained 0.2 ml of ice-cold 75% aqueous methanol. Tubes were vortexed, kept on ice for at least 30 min and then centrifuged for 5 min at 4 o C and 16,000 g. Supernatants or aliquots of supernatants were transferred to 6 x 50 mm borosilicate glass tubes and were stored in the freezer at -10 o C. Prior to RIA, samples were dried in a Savant Speed Vac Concentrator (Forma Scientific, Marietta, OH, USA). RIA was performed as described in Gelman et al., 1997. Competitive studies showed that the ecdysone antibody had a high affinity for E, 20E, makisterone A, 26E, and 20,26E (Gelman et al., 1988) . The radioactively labeled antigen was tritiated ecdysone (63.5 Ci per mmol). The concentration of ecdysteroids was determined from curves generated by 20E standards (50-4000 pg) and was therefore expressed as pg 20E equivalents/microliter hemolymph.",
+        "cite_spans": [
+          {
+            "start": 51,
+            "end": 74,
+            "text": "Gelman and Woods (1983)",
+            "latex": null,
+            "ref_id": "BIBREF7"
+          },
+          {
+            "start": 757,
+            "end": 777,
+            "text": "Gelman et al., 1997.",
+            "latex": null,
+            "ref_id": "BIBREF6"
+          },
+          {
+            "start": 895,
+            "end": 916,
+            "text": "(Gelman et al., 1988)",
+            "latex": null,
+            "ref_id": "BIBREF8"
+          }
+        ],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "To determine if the sex of the beetle significantly affected mean maximum weights, durations of various stages or percent nonfeeding adults, Student's t-Tests (two-tailed, P< 0.05) were used. To determine the effects of diet on the various parameters selected to characterize beetle development, a one-way ANOVA was performed. When the variance of any one group was not equal to, or not slightly above 0, and when Bartlett's test of equal variance indicated that variances among groups were significantly different, a log transformation was performed prior to the one-way ANOVA. The Tukey (HSD) Comparison of Means Test (P< 0.05) was chosen as the post-hoc test to analyze for significant differences among the various treatment groups.",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "For each larval instar, the length of the instar was significantly shorter when larvae were reared on potato plants than when they were reared on artificial diet (Fig. 2) . However, with the exception of P-Diet I 2 nd instars, for any given instar, the durations for artificial diet-reared beetles were only between 0.8 and 1.5 days longer than the durations for leaf-reared beetles. When length of instar was compared for CPBs reared on the various artificial diets, in general the durations were slightly longer for P and F 1 generations than for F 7 and F 8 generations, excluding the F 8 beetles reared on the lettuce-only diet. For the pupal stage, the pattern was different. The time between prepupal burying into the soil and adult emergence was shortest for the P-Diet-I CPBs. Pupal durations for this group, the plant-reared beetles and the LP-Diet-I group were significantly shorter than for the P-Diet-II, LP-Diet-II and L-diet groups. As stated previously, for any given stage there was no significant difference in the stage durations for male and female beetles (results not shown).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 162,
+            "end": 170,
+            "text": "(Fig. 2)",
+            "latex": null,
+            "ref_id": "FIGREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Maximum weights for 3 rd and 4 th instars, prepupae and newly emerged and older adults are provided in Fig. 3 . Upon reaching the 4 th instar, except for F 7 and F 8 beetles reared on the Potato and Lettuce+Potato diets, the mean weight of female beetles was always significantly greater than that of male beetles. For both females (Fig. 3A) and males (Fig. 3B) , leaf- reared beetles of all stages weighed significantly more than artificial diet-reared beetles. There were some significant differences in beetle weights associated with diet, but except for 5 -9 day-old male adults reared on the Lettuce diet, for the most part, differences were small. Interestingly, for both males and females of all stages, CPBs fed on the Lettuce diet tended to weigh more than beetles fed on the other two diets, and the mean maximum weight achieved by male adults was not significantly different from the mean maximum adult weight of male beetles fed on potato leaves (Fig. 3) .",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 103,
+            "end": 109,
+            "text": "Fig. 3",
+            "latex": null,
+            "ref_id": "FIGREF3"
+          },
+          {
+            "start": 332,
+            "end": 341,
+            "text": "(Fig. 3A)",
+            "latex": null,
+            "ref_id": "FIGREF3"
+          },
+          {
+            "start": 352,
+            "end": 361,
+            "text": "(Fig. 3B)",
+            "latex": null,
+            "ref_id": "FIGREF3"
+          },
+          {
+            "start": 958,
+            "end": 966,
+            "text": "(Fig. 3)",
+            "latex": null,
+            "ref_id": "FIGREF3"
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Survival of 1 st instars was significantly better when beetles were reared on leaves as compared to artificial diet (Fig. 4) . However, by the time the beetle became a 2 nd instar, a diet of potato leaves offered no significant advantage. Importantly, the mortality rate of pupae was four to five times higher when beetles were reared on plant leaves as compared to artificial diet.Therefore, total (newly hatched to adult emergence) percent mortality was not significantly different among the treatment groups; the higher percent mortality observed in artificial diet-fed 1 st instar CPBs was balanced by the exceptionally high mortality observed for pupae that were leaf-fed during larval development.It is noteworthy that P and F 1 generation CPBs fed on the Lettuce+Potato diet and F 8 beetles fed on the Lettuce diet exhibited a considerably, but not significantly, lower percent total mortality than did the other treatment groups (Fig. 4) .Adult mortality for the period of day 9 through day 30 was monitored in mated pairs. Mortality for all treatment groups ranged between 5 and 10%, and there was no significant difference among groups (results not shown).",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 116,
+            "end": 124,
+            "text": "(Fig. 4)",
+            "latex": null,
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 937,
+            "end": 945,
+            "text": "(Fig. 4)",
+            "latex": null,
+            "ref_id": "FIGREF4"
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Male CPBs of the parental and F 1 generations fed on the Lettuce+Potato diet and of the F 8 generation fed on the Lettuce diet had an abnormally high rate of non-feeding, approximately, 50% (Fig. 5) . The percentage of non-feeding females for these two treatments was also somewhat higher than for females of the other two treatment groups (Fig. 5) . By nine days post-adult emergence >90% of the beetles were alive and when provided with Potato diet, >86% of these beetles began to feed and survived.After 5 to 7 days of feeding on the Potato diet, when switched to the Lettuce+Potato diet, these beetles continued to feed (unpublished results). Effect of diet on the mean durations of the four larval instars and of the pupa of the CPB. P-diet-I and LP-diet-I = P and F 1 generations reared on Potato and Lettuce+Potato diets, respectively; P-diet-II and LP-diet-II = F 7 and F 8 generations reared on Potato and Lettuce+Potato diets, respectively; and L-diet-I = F 8 generation beetles reared on the Lettuce diet (diet which contains 2.5% lettuce leaf powder and no potato leaf powder) during the F 8 generation (P through F 7 generations had been fed the Lettuce+Potato diet). See Table 1 for description of the diets. For each experiment, each treatment group contained between 50 and 75 beetles (except for the Lettuce group which contained between 25 and 50 individual insects), and each experiment was performed at least three times. Since mortality reduced the total number of individuals, each value represents the mean of at least 50 separate determinations. A one-way ANOVA and the Tukey's HSD test were used to determine if there were significant differences among treatment groups. For any given stage, means (± S. E.) followed by the same letter were not significantly different. ",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 190,
+            "end": 198,
+            "text": "(Fig. 5)",
+            "latex": null,
+            "ref_id": "FIGREF5"
+          },
+          {
+            "start": 340,
+            "end": 348,
+            "text": "(Fig. 5)",
+            "latex": null,
+            "ref_id": "FIGREF5"
+          },
+          {
+            "start": 1185,
+            "end": 1192,
+            "text": "Table 1",
+            "latex": null,
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "For leaf-reared as well as artificial diet-reared CPBs, hemolymph ecdysteroid titers were very low just prior to prepupal formation (in late 4 th larvae) as well as in newly formed prepupae. By 24-h post-prepupation, titers had begun to rise to approximately 250 pg/microliter, and continued to rise sharply through 72-h postprepupation, at which time they reached approximately 1000 pg/ microliter (Fig. 6) . Except for the prepupal stage, there were no significant differences in hemolymph ecdysteroid titers for the three treatment groups. For prepupae, ecdysteroid levels for potato dietreared beetles were slightly but significantly higher than for the other two treatment groups.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 399,
+            "end": 407,
+            "text": "(Fig. 6)",
+            "latex": null,
+            "ref_id": "FIGREF6"
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "The number of egg masses laid, the number of eggs per mass and percent hatch served as measures of adult reproductive function. For each mated pair, beginning on the 5 th day post-mating, these values were recorded for a period of 30 days. For each parameter, a comparison of means (one-way ANOVA, alpha = 0.05) for the 1 st , 2 nd 3 rd and 4 th 7-8 day period revealed that there were no significant differences among them (results not shown).",
+        "cite_spans": [],
+        "ref_spans": [],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "CPBs reared on potato plants produced significantly more egg masses per day than beetles reared on artificial diets ( Table 2 ). The F 7 and F 8 generations fed on the Potato diet laid significantly more egg masses than all other diet-reared beetles except for F 7 and F 8 generations reared on the Lettuce+Potato diet. For all diet-reared beetles, approximately 20% of the egg masses were destroyed by cannibalism, while for leaf-fed beetles, a smaller percentage of egg masses were cannibalized (results not shown). However, it was difficult to determine the exact number of egg masses that were eaten, and therefore, values were not corrected for cannibalism of egg masses.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 118,
+            "end": 125,
+            "text": "Table 2",
+            "latex": null,
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Egg masses produced by beetles from all treatment groups except for the P-Diet-I and Lettuce groups contained similar numbers of eggs (Table 2 ). Symbols and methods as in the legends to Figures 2 and 3 . For each experiment, each treatment group contained between 50 and 75 beetles (except for the Lettuce group which contained between 25 and 50 individual insects), and each experiment was performed at least two times. Therefore, each value represents the mean of at least two separate determinations. To ascertain if the sex of the beetle significantly affected the percent of non-feeding adults, Student's t-Tests (P<0.05) were performed. * indicates treatment groups in which there was a significant difference between males and females. A one-way ANOVA followed by the Tukey's HSD posthoc test was used to determine if there were significant differences among treatment groups for males, and separately for females. For any given diet, means (± S. E.) followed by the same letter (lower case for females; upper case for males) were not significantly different. th , PP, +24 h, +48 h and +72 h = 4 th instars whose color had begun to lighten, prepupae (absence of black pigmentation), burying +24 h, burying in the soil +48 h and burying +72 h, respectively. Each value represents the mean ± S. E. of at least four separate determinations.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 134,
+            "end": 142,
+            "text": "(Table 2",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 187,
+            "end": 202,
+            "text": "Figures 2 and 3",
+            "latex": null,
+            "ref_id": "FIGREF2"
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Percent hatch was highest for leaf-fed beetles and beetles fed on the Lettuce diet, and lowest for beetles fed on the Potato diet (P-Diet-I and P-Diet-II) (Table 2) . Therefore, the addition of lettuce leaf powder to the diet appears to promote egg hatch.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 155,
+            "end": 164,
+            "text": "(Table 2)",
+            "latex": null,
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "For each individual pair, the mean number of offspring/ pair/day for each treatment group is provided in the next to the last column of Table 2 . Leaf-fed beetles produced between 8 and 10 times more offspring than did all other treatment groups except for the Pot-Diet-I group; the latter produced approximately 28 times fewer eggs than the beetles fed on potato plant leaves. The last column of Table 2 provides information concerning the percent of beetle pairs that did not produce any hatchlings, either because eggs were not laid or because eggs did not hatch. The Pot-Diet-I and Lettuce groups had the highest percentage of such pairs. Importantly, the number of mated pairs not yielding hatchlings was not significantly different for the Plant leaf, Pot-Diet-II and LetDiet-II groups.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 136,
+            "end": 143,
+            "text": "Table 2",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 397,
+            "end": 404,
+            "text": "Table 2",
+            "latex": null,
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "Eggs produced by beetles reared on plant leaves, the Potato, Lettuce+Potato and modified Forrester (here-in-after referred to as the Forrester) diets were tested for their ability to support parasitization by, and the development of, E. puttleri. Percent parasitism was significantly higher for the control group than for the three experimental groups which, except for the Forrester group, exhibited approximately 50% parasitism (Table 3 ). In contrast, percent parasitoid emergence was significantly lower for the control group. Therefore, the percent of eggs producing wasp offspring was approximately equal for the control (51%) and Potato diet (49%) groups (Table 3 , Column 5), and although this percentage for the Forrester-diet group was only 31%, values for the four treatment groups were not significantly different. Mean adult weights for all treatment groups were in the same range, and longevity, while not significantly different for the three artificial diet-reared groups, was significantly lower for the Forrester group as compared to the control group. Thus, eggs produced by beetles fed on plant leaves and on the Potato and Lettuce+Potato diets appear to be equally suitable for rearing E. puttleri. Eggs produced by Forrester diet-fed CPBs were somewhat inferior for rearing these wasps.",
+        "cite_spans": [],
+        "ref_spans": [
+          {
+            "start": 430,
+            "end": 438,
+            "text": "(Table 3",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 662,
+            "end": 670,
+            "text": "(Table 3",
+            "latex": null,
+            "ref_id": null
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      },
+      {
+        "text": "CPBs have been reared successfully through 12 generations on artificial diets containing either 2.5% potato leaf powder or 2.5% lettuce leaf powder/0.75% potato leaf powder. The diets used in these investigations were based on a diet developed by T. Forrester, APHIS, USDA (personal communication to RA Bell). The ability to substitute lettuce leaf powder for 70-100% of the potato leaf powder was not tested by Forrester who was able to rear 8 generations on the artificial diet. By the 9 th generation, he found that mortality of 2 nd instars had increased to 80% (personal communication to RA Bell). Previously reported artificial diets for the CPB were unsatisfactory. Diets developed by Wardojo (1969) either only supported development to the 3 rd instar or if the life cycle was completed, the beetle colony expired after two generations. Hsiao and Fraenkel's (1968) diet was only useful for rearing 4 th instars, and Domek et al.'s (1997 ) meridic diet supported the growth of all stages, but was not suitable because levels of adult propagation and reproduction were low.Many of the ingredients used in the Forrester diet, and hence in the diets reported here, had been tested previously in diets formulated by Wardojo (1969) who found that CPB required vitamin and salt mixtures and sugars, especially sucrose. In our investigations, beetles placed on diets with and without sucrose did equally well (unpublished results). According to Wardojo, beetles performed better on diets containing both egg albumin and caesin than on diets in which only one of these ingredients was present, and beta-sitosterol was more effective than cholesterol in promoting CPB well-being. The diet described by Forrester was decidedly better than those developed by earlier researchers and with the additional modifications reported here, beetle colony performance Table 2 . Effect of diet on adult fecundity and hatch P -diet-I and LP-diet-I = eggs were laid by P and F 1 generations that had been reared on Potato and Lettuce+Potato diets, respectively; P and LP-diet-II = eggs were laid by F 7 and F 8 generations that had been reared on Potato and Lettuce+Potato diets, respectively; and L = eggs were laid by F 8 generation beetles reared on the Lettuce diet during the F 8 generation (P through F 7 generations had been fed the Lettuce+Potato diet). See Table 1 for a description of the diets. For each experimental group except the control group, at least 10 pairs of beetles were mated, and each experiment was performed at least three times. For the control group, the experiment was repeated two times. For each parameter, a one-way ANOVA and the Tukey's HSD test were used to determine if there were significant differences among treatment groups. Means (± S. E.) in the same column followed by the same letter were not significantly different.was further enhanced in that the colony continued to thrive after 12 generations. On the artificial diets described here, although the length of larval stages were somewhat longer for artificially-reared CPBs than for leaf-reared beetles (Fig. 2) , the extended period required for development was not viewed as a serious disadvantage. Wardojo (1969) reported slightly longer developmental times (to prepupation) when potato leaf powder was replaced with lettuce leaf powder. In contrast, on our artificial diets, the duration of a given instar except for earlier generation 2 nd instars, tended to be shorter when beetles were reared on the Lettuce+Potato diet (Fig. 2) . Maximum weights of prepupae, newly emerged adults and day-5 through -9 adults were approximately 78, 80 and 82%, respectively, of the weights for comparable stages of leaf-reared beetles (Fig. 3) . Thus, for the reproductive adult stage, mean weights of diet-reared beetles were within 18% of control weights. While it would be ideal if modifications in the diet could be made to improve the mean weights achieved by the diet-reared groups, the weights attained should be acceptable for most uses. Mean percent mortality of 1 st instar artificial diet-fed beetles was two to six times higher than control values and than values for older stages. The latter phenomenon was probably associated with the advanced tolerance observed for older stages of diet-reared CPBs (Wardojo, 1969) . Despite the relatively low percent mortality exhibited by 1 st instar controls as compared to that of other treatment groups, mean total percent mortality of later generations of potato and lettuce leaf powder dietreared beetles and of control beetles were in the same range, approximately 35% (Fig. 4) , because the increased and slightly increased mortality in 1 st and 2 nd generation artificial diet-reared beetles, respectively, was balanced by the approximately 4 times greater percent mortality exhibited by pupae of leaf-fed CPBs.Since insects reared on artificial diet may exhibit reduced ecdysteroid levels especially just prior to pupation (Gelman et al., 1999) , hemolymph ecdysteroid titers in experimental and control groups of CPBs were determined just prior to and during the prepupal ecdysteroid peak. All treatment groups showed the same pattern and, for the most part, levels of hormone, indicating that the nature of the diet did not affect molting hormone production/release during this critical time. The pattern of fluctuation, i.e., the peak on the 3 rd day post-burying, was the same as that reported by De Wilde et al. (1980) who measured whole body ecdysteroid titers during the 4 th instar, pupal and adult stages.Reproductive function, the best measure of which is the # of offspring produced/pair/day (Column 5 of Table 2 ) was unfortunately considerably (8x) lower for beetles reared on artificial diet than for control beetles, primarily because the number of egg masses produced per day was at least 4 times greater for control CPBs. However, the number of egg masses from artificial dietreared beetles was reduced by approximately 20% because of egg cannibalism. Importantly, later generations (P-Diet II and LP-Diet-II) produced more egg masses per day than younger generations (P-Diet I and LP-Diet I) particularly for Potato diet-reared beetles. This may represent an acclimatization to the artificial diet. Fewer non-feeding males in the F 7 and F 8 generations of the Lettuce+Potato diet group as compared to P and F 1 generations also is indicative of acclimatization (Fig. 4) . Not unexpectedly, performance of CPBs reared during the F 8 generation on the lettuce-diet declined, as evidenced by an increase in percent non-feeding males and a decrease in the number of egg masses laid per day. Perhaps, after several more generations of being reared on the lettuce-only diet, acclimatization would reduce or eliminate these drawbacks. In general, the number of eggs/mass was not affected by diet, and the percent hatch, while never as great as for control beetles, was better for beetles reared on a diet containing both lettuce and potato leaf powders than on one in which only potato leaf powder was present (Table 2) . Beetles fed the Lettuce diet had a hatch rate of 70%, which was not significantly different from the percent hatch exhibited by control CPBs. Therefore, it would be worthwhile to evaluate a diet in which the amount of lettuce leaf powder is increased by 1 to 3 percent. Also of interest would be investigations in which different diets were presented to different stages of beetles. Since the mean maximum weights of adult beetles (day 5 through 9) fed on the Lettuce diet were higher than the mean maximum weights of the other artificial diet-reared beetle groups [and for males, was not Table 3 . Growth and development of Edovum puttleri in CPB eggs produced by artificial-diet fed and leaf-fed CPBs * (P x E) = % Parasitism x % Emergence Control = beetles reared on potato leaves; P-diet = F 2 and F 3 generation beetles reared on Potato diet; L-diet = F 2 and F 3 generation beetles reared on Lettuce+Potato diet; For-diet = F 2 and F 3 generation beetles reared on the Forrester diet (see Table 1 for description of diets). For each experimental group at least 175 CPB eggs were made available for parasitization, and each experiment was repeated at least four times. For each parameter, a one-way ANOVA and the Tukey's HSD test were used to determine if there were significant differences among treatment groups. Means (± S. E.) in the same column followed by the same letter were not significantly different.significantly different from the control value (Fig. 3) ], it might be prudent when providing fresh diet for the F 7 and F 8 generations to alternate between cubes of Lettuce diet and cubes of Lettuce+Potato diet. In preliminary experiments, fecundity-related parameters were determined for CPBs reared on Potato diet and then, upon adult emergence, switched to a diet of plant leaves. The number of offspring/pair/day increased approximately 3 fold (unpublished results) suggesting that such a diet regimen of artificial diet for larval stages followed by plant leaves for the adult stage, might be useful for reducing the costs associated with rearing CPBs on plants for their entire life cycle. Since the eulophid egg endoparasitoid, E. puttleri, has been shown to effectively control CPB populations on eggplant (Williams, 1987) , the quality of the eggs produced by adult beetles of the various treatment groups was also evaluated by determining the ability of E. puttleri to parasitize and develop in these eggs. Percent parasitization was approximately 50% for eggs produced by F 2 and F 3 generation CPBs reared on potato or Lettuce+Potato diets (Table  3) . While only 67% as great as for control beetles, parasitization was considerable, and percent parasitization might increase if eggs from older generations of diet-reared beetles were used. The lighter color of eggs produced by diet-fed beetles [light to medium yellow as compared to deep yellow and bright orange for plant-fed beetles (Fig. 1B) ] might be responsible, in part, for the reduced parasitization observed for artificial diet-fed as compared to control beetles. Wardojo (1969) also reported reduced color intensity of eggs produced by CPBs fed on artificial diet as compared to those produced by plant-fed beetles. Eggs produced by CPBs fed the Forrester diet were not as suitable as eggs produced by beetles reared on the other two artificial diets. Importantly, the weight and longevity of E. puttleri adults that emerged from eggs of the potato and Lettuce+Potato diet-treatment groups were not significantly different from control values. Thus, depending upon the artificial diet selected, eggs from diet-reared beetles should be useful for rearing E. puttleri. However, for mass-rearing of the wasp, diets would have to be improved to generate a greater number of egg masses per mated pair of beetles.Researchers have been attempting to develop efficacious artificial diets for the CPB for the last thirty-five years, so that entomological research could be conducted on a year-round basis in the laboratory under precisely controlled environmental conditions. The Potato and Lettuce+Potato diets described here will support the successful culture of at least 12 generations of this important pest. Although beetle quality as compared to that of CPBs reared on plant leaves was somewhat reduced, primarily in terms of maximum weights achieved and fecundity, development and survival compared favorably with that of control beetles. The current artificial diets and rearing system will be useful for providing beetles for testing the effects of potential insect control agents, and for physiological and biochemical studies of the beetles. The use of lettuce leaf powder as an ingredient to replace most of the potato leaf powder is especially advantageous because of the much reduced cost and greater availability of lettuce as compared to potato leaves. Romaine lettuce can be purchased year round at any grocery store, while potato plants must be grown either in the field or in greenhouses, an expensive and relatively labor-intensive process. Currently, in order to reduce costs and labor, we are testing the efficacy of aggregate rearing. Cannibalism of younger stages is minimal, but as in the case of individually reared beetle pairs, adults too often feed on their own eggs. Other issues that should be addressed are: decreasing the frequency of diet replacement (which in aggregate rearing has been reduced from three times per week to two times per week); improving the diet so that reproductive output is increased, perhaps by increasing the amount of lettuce-leaf powder that is included in the diet; and, in order to promote oviposition on artificial substrates, investigating the nature of plant-related cues that promote egg laying behavior. Finally, it has been suggested that artificial rearing of insects could produce an unnatural population that would perform differently from plant-reared insects (references in Grenier et al., 1994) . Studies are currently underway to determine the relative survivorship and fecundity of diet-reared CPB when switched back to foliage, and to compare the response of diet-reared and leaf-reared beetles to pesticides.",
+        "cite_spans": [
+          {
+            "start": 692,
+            "end": 706,
+            "text": "Wardojo (1969)",
+            "latex": null,
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 845,
+            "end": 872,
+            "text": "Hsiao and Fraenkel's (1968)",
+            "latex": null,
+            "ref_id": "BIBREF14"
+          },
+          {
+            "start": 924,
+            "end": 946,
+            "text": "Domek et al.'s (1997 )",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 1219,
+            "end": 1233,
+            "text": "Wardojo (1969)",
+            "latex": null,
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 3180,
+            "end": 3194,
+            "text": "Wardojo (1969)",
+            "latex": null,
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 4283,
+            "end": 4298,
+            "text": "(Wardojo, 1969)",
+            "latex": null,
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 4952,
+            "end": 4973,
+            "text": "(Gelman et al., 1999)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 5433,
+            "end": 5452,
+            "text": "Wilde et al. (1980)",
+            "latex": null,
+            "ref_id": "BIBREF3"
+          },
+          {
+            "start": 9295,
+            "end": 9311,
+            "text": "(Williams, 1987)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 10119,
+            "end": 10133,
+            "text": "Wardojo (1969)",
+            "latex": null,
+            "ref_id": "BIBREF25"
+          },
+          {
+            "start": 12995,
+            "end": 13016,
+            "text": "Grenier et al., 1994)",
+            "latex": null,
+            "ref_id": "BIBREF9"
+          }
+        ],
+        "ref_spans": [
+          {
+            "start": 1854,
+            "end": 1861,
+            "text": "Table 2",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 2349,
+            "end": 2356,
+            "text": "Table 1",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 3082,
+            "end": 3090,
+            "text": "(Fig. 2)",
+            "latex": null,
+            "ref_id": "FIGREF2"
+          },
+          {
+            "start": 3506,
+            "end": 3514,
+            "text": "(Fig. 2)",
+            "latex": null,
+            "ref_id": "FIGREF2"
+          },
+          {
+            "start": 3704,
+            "end": 3712,
+            "text": "(Fig. 3)",
+            "latex": null,
+            "ref_id": "FIGREF3"
+          },
+          {
+            "start": 4595,
+            "end": 4603,
+            "text": "(Fig. 4)",
+            "latex": null,
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 5645,
+            "end": 5652,
+            "text": "Table 2",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 6409,
+            "end": 6417,
+            "text": "(Fig. 4)",
+            "latex": null,
+            "ref_id": "FIGREF4"
+          },
+          {
+            "start": 7051,
+            "end": 7060,
+            "text": "(Table 2)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 7652,
+            "end": 7659,
+            "text": "Table 3",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 8058,
+            "end": 8065,
+            "text": "Table 1",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 8526,
+            "end": 8534,
+            "text": "(Fig. 3)",
+            "latex": null,
+            "ref_id": "FIGREF3"
+          },
+          {
+            "start": 9633,
+            "end": 9643,
+            "text": "(Table  3)",
+            "latex": null,
+            "ref_id": null
+          },
+          {
+            "start": 9980,
+            "end": 9989,
+            "text": "(Fig. 1B)",
+            "latex": null,
+            "ref_id": "FIGREF1"
+          }
+        ],
+        "eq_spans": [],
+        "section": null
+      }
+    ],
+    "ref_entries": {
+      "FIGREF0": {
+        "text": "o C). Procedures for long term storage of seed potatoes (15-18 months) were obtained from Dan Palmer (New Jersey Department of Agriculture, personal communication).",
+        "latex": null,
+        "type": "figure"
+      },
+      "FIGREF1": {
+        "text": "Figure 1. Comparison of CPBs reared on plant leaves (left) and on artificial Lettuce+Potato diet (right). A = larval stage; B = egg stage. Bar at the bottom of each photograph = 1.5 mm. Appearance of beetles reared on all three artificial diets was similar.",
+        "latex": null,
+        "type": "figure"
+      },
+      "FIGREF2": {
+        "text": "Figure 2. Effect of diet on the mean durations of the four larval instars and of",
+        "latex": null,
+        "type": "figure"
+      },
+      "FIGREF3": {
+        "text": "Figure 3. Effect of diet on the mean maximum weight of various stages of the CPB; A = females, B = males. Symbols, methods and statistical analysis as in the legend to Figure 2. pp = prepupa. Approximately half of each treatment group were males and half were females. Therefore, each value represents the mean of at least 25 separate determinations. * indicates treatment groups in which there was a significant difference between males and females.",
+        "latex": null,
+        "type": "figure"
+      },
+      "FIGREF4": {
+        "text": "Figure 4. Effect of diet on percent mortality of various stages of the CPB. Symbols, methods and statistical analysis as in the legend to Figure 2. For a given experiment, percent mortality was determined for each stage by dividing the number of fatalities observed for a given stage by the total number of beetles that were placed on diet at the beginning of the experiment. Adult mortality was determined through day 9 post emergence. For each treatment group, total mortality equals the sum of the mortalities at each stage. Values represent the mean of three experiments.",
+        "latex": null,
+        "type": "figure"
+      },
+      "FIGREF5": {
+        "text": "Figure 5. Effect of diet on the percent of non-feeding CPB males and females.",
+        "latex": null,
+        "type": "figure"
+      },
+      "FIGREF6": {
+        "text": "Figure 6. The effect of diet on the hemolymph ecdysteroid titers of various stages of the CPB. Hemolymph was collected and extracts were prepared and analyzed as described in Materials and Methods. Late 4 th , PP, +24 h, +48 h and +72 h = 4 th instars whose color had begun to lighten, prepupae (absence of black pigmentation), burying +24 h, burying in the soil +48 h and burying +72 h, respectively. Each value represents the mean ± S. E. of at least four separate determinations.",
+        "latex": null,
+        "type": "figure"
+      },
+      "TABREF0": {
+        "text": "Edovum puttleri E. puttleri, originally obtained from the New Jersey Diet (final volume = 500 ml)Table 1. Diet Composition *Rolled oats (Quaker Old Fashioned), agar (#7060), lactalbumin hydrolysate (#1280), casein (#1100), Beck's salt mix (F8537), USP salt mix (#F8650), Roche vitamin mix (#6265), Vanderzant vitamin mixture (#F8045), vitamin fortification mixture (#F8095) and sorbic acid (#6967) were purchased from Bioserve (Frenchtown, NY, USA); the torula yeast (#903085), and neomycin sulfate (#100541) were purchased from ICN Biomedicals (Aurora, OH, USA); and the beta-sitosterol (#21600) and methyl paraben (#19160) were purchased from USB (Cleveland, OH, USA). The Wesson oil was soybean based.",
+        "latex": null,
+        "type": "table"
+      }
+    },
+    "bib_entries": {
+      "BIBREF0": {
+        "ref_id": "b0",
+        "title": "Suppression of Colorado potato beetle infestation by pheromone-mediated augmentation of the predatory spined soldier bug, Podisus maculiventris (Say) (Heteroptera: Pentatomidae)",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "R"
+            ],
+            "last": "Aldrich",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [
+              "W"
+            ],
+            "last": "Cantelo",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Agricult Forest Entomol",
+        "volume": "1",
+        "issn": "",
+        "pages": "209--217",
+        "other_ids": {},
+        "links": "84994427"
+      },
+      "BIBREF1": {
+        "ref_id": "b1",
+        "title": "Suppression of the Colorado potato beetle (Coleoptera: Chrysomelidae) with augmentative releases of predaceous stinkbugs (Hemiptera: Pentatomidae)",
+        "authors": [
+          {
+            "first": "K",
+            "middle": [
+              "D"
+            ],
+            "last": "Biever",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "L"
+            ],
+            "last": "Chauvin",
+            "suffix": ""
+          }
+        ],
+        "year": 1992,
+        "venue": "J Econ Entomol",
+        "volume": "85",
+        "issn": "",
+        "pages": "720--726",
+        "other_ids": {},
+        "links": "88379497"
+      },
+      "BIBREF2": {
+        "ref_id": "b2",
+        "title": "Unnatural prey and artificial diets for rearing Podisus maculiventris (Heteroptera: Pentatomidae)",
+        "authors": [
+          {
+            "first": "P",
+            "middle": [],
+            "last": "De Clercq",
+            "suffix": ""
+          },
+          {
+            "first": "F",
+            "middle": [],
+            "last": "Merlevede",
+            "suffix": ""
+          },
+          {
+            "first": "L",
+            "middle": [],
+            "last": "Tirry",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "Bio Control",
+        "volume": "12",
+        "issn": "",
+        "pages": "137--142",
+        "other_ids": {},
+        "links": "84923201"
+      },
+      "BIBREF3": {
+        "ref_id": "b3",
+        "title": "The regulation of the metamorphic moults in the Colorado potato beetle Leptinotarsa decemlineata Say",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "De Wilde",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [
+              "H"
+            ],
+            "last": "Hsiao",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [],
+            "last": "Hsiao",
+            "suffix": ""
+          }
+        ],
+        "year": 1980,
+        "venue": "Ecdysone Research",
+        "volume": "",
+        "issn": "",
+        "pages": "",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF4": {
+        "ref_id": "b4",
+        "title": "A meridic diet for the Colorado potato beetle",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "M"
+            ],
+            "last": "Domek",
+            "suffix": ""
+          },
+          {
+            "first": "W",
+            "middle": [
+              "W"
+            ],
+            "last": "Cantelo",
+            "suffix": ""
+          },
+          {
+            "first": "K",
+            "middle": [
+              "L"
+            ],
+            "last": "Deahl",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "J Entomol Sci",
+        "volume": "32",
+        "issn": "",
+        "pages": "430--444",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF5": {
+        "ref_id": "b5",
+        "title": "Ecdysteroid levels/ profiles of the parasitoid wasp, Diapetimorpha introita, reared on its host, Spodoptera frugiperda and on an artificial diet",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [
+              "B"
+            ],
+            "last": "Gelman",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "E"
+            ],
+            "last": "Carpenter",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [
+              "D"
+            ],
+            "last": "Greany",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "J Insect Physiol",
+        "volume": "46",
+        "issn": "",
+        "pages": "457--465",
+        "other_ids": {},
+        "links": "746813"
+      },
+      "BIBREF6": {
+        "ref_id": "b6",
+        "title": "Improved techniques for the rapid radioimmunoassay of ecdysteroids and other metabolites",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [
+              "B"
+            ],
+            "last": "Gelman",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "A"
+            ],
+            "last": "Khalidi",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "J"
+            ],
+            "last": "Loeb",
+            "suffix": ""
+          }
+        ],
+        "year": 1997,
+        "venue": "Invert Reprod Develop",
+        "volume": "32",
+        "issn": "",
+        "pages": "127--129",
+        "other_ids": {},
+        "links": "84941237"
+      },
+      "BIBREF7": {
+        "ref_id": "b7",
+        "title": "Hemolymph ecdysteroid titers of diapause-and non-diapause fifth instars and pupae of the European corn borer Ostrinia nubilalis (Hubner)",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [
+              "B"
+            ],
+            "last": "Gelman",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [
+              "W"
+            ],
+            "last": "Woods",
+            "suffix": ""
+          }
+        ],
+        "year": 1983,
+        "venue": "Comp Biochem Physiol",
+        "volume": "76",
+        "issn": "",
+        "pages": "367--375",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF8": {
+        "ref_id": "b8",
+        "title": "Ecdysteroid profiles for hemolymph and testes from larvae, pupae and pharate adults of the European corn borer, Ostrinia nubilalis Hübner",
+        "authors": [
+          {
+            "first": "D",
+            "middle": [
+              "B"
+            ],
+            "last": "Gelman",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [
+              "W"
+            ],
+            "last": "Woods",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "B"
+            ],
+            "last": "Borkovec",
+            "suffix": ""
+          }
+        ],
+        "year": 1988,
+        "venue": "Arch Insect Biochem Physiol",
+        "volume": "7",
+        "issn": "",
+        "pages": "267--269",
+        "other_ids": {},
+        "links": "86411651"
+      },
+      "BIBREF9": {
+        "ref_id": "b9",
+        "title": "Potential for mass release of insect parasitoids and predators through development of artificial culture techniques",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Grenier",
+            "suffix": ""
+          },
+          {
+            "first": "P",
+            "middle": [
+              "D"
+            ],
+            "last": "Greany",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "C"
+            ],
+            "last": "Cohen",
+            "suffix": ""
+          }
+        ],
+        "year": 1994,
+        "venue": "Bennett FD, Capinera JL, Editiors. Pest Management in the Subtropics Biological Control-a Florida Perspective. Andover: Intercept Ltd",
+        "volume": "",
+        "issn": "",
+        "pages": "181--205",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF10": {
+        "ref_id": "b10",
+        "title": "Impact of defoliation by the Colorado potato beetle on potato yields",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "D"
+            ],
+            "last": "Hare",
+            "suffix": ""
+          }
+        ],
+        "year": 1980,
+        "venue": "J Econ Entomol",
+        "volume": "73",
+        "issn": "",
+        "pages": "369--373",
+        "other_ids": {},
+        "links": "18723438"
+      },
+      "BIBREF11": {
+        "ref_id": "b11",
+        "title": "Ecology and management of the Colorado potato beetle",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "D"
+            ],
+            "last": "Hare",
+            "suffix": ""
+          }
+        ],
+        "year": 1990,
+        "venue": "Annu Rev Entomol",
+        "volume": "35",
+        "issn": "",
+        "pages": "81--100",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF12": {
+        "ref_id": "b12",
+        "title": "Natural Enemies of Vegetable Insect Pests",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "P"
+            ],
+            "last": "Hoffmann",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "C"
+            ],
+            "last": "Frodsham",
+            "suffix": ""
+          }
+        ],
+        "year": 1993,
+        "venue": "",
+        "volume": "",
+        "issn": "",
+        "pages": "",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF13": {
+        "ref_id": "b13",
+        "title": "Comparison of Perillus bioculatus and Podisus maculiventris (Heteroptera: Pentatomidae) as potential control agents of the Colorado potato beetle (Coleoptera: Chrysomelidae)",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [],
+            "last": "Hough-Goldstein",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [],
+            "last": "Mcpherson",
+            "suffix": ""
+          }
+        ],
+        "year": 1996,
+        "venue": "J Econ Entomol",
+        "volume": "89",
+        "issn": "",
+        "pages": "1116--1123",
+        "other_ids": {},
+        "links": "20773331"
+      },
+      "BIBREF14": {
+        "ref_id": "b14",
+        "title": "The role of secondary plant substances in the food specificity of the Colorado potato beetle",
+        "authors": [
+          {
+            "first": "T",
+            "middle": [
+              "S"
+            ],
+            "last": "Hsiao",
+            "suffix": ""
+          },
+          {
+            "first": "G",
+            "middle": [],
+            "last": "Fraenkel",
+            "suffix": ""
+          }
+        ],
+        "year": 1968,
+        "venue": "Ann Ent Soc Am",
+        "volume": "61",
+        "issn": "",
+        "pages": "485--492",
+        "other_ids": {},
+        "links": "84622642"
+      },
+      "BIBREF15": {
+        "ref_id": "b15",
+        "title": "In vitro rearing of Edovum puttleri, an egg parasitoid of the Colorado potato beetle-development from egg through the pupal stage",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "S"
+            ],
+            "last": "Hu",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "B"
+            ],
+            "last": "Gelman",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "A"
+            ],
+            "last": "Bell",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "J"
+            ],
+            "last": "Loeb",
+            "suffix": ""
+          }
+        ],
+        "year": 1998,
+        "venue": "Biol Control",
+        "volume": "43",
+        "issn": "",
+        "pages": "1--16",
+        "other_ids": {},
+        "links": "42710938"
+      },
+      "BIBREF16": {
+        "ref_id": "b16",
+        "title": "In vitro rearing of Edovum puttleri, an egg parasitoid of the Colorado potato beetle, on artificial diets: Effects of Insect Cell LineConditioned Medium",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "S"
+            ],
+            "last": "Hu",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "B"
+            ],
+            "last": "Gelman",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "A"
+            ],
+            "last": "Bell",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "E"
+            ],
+            "last": "Lynn",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Arch Insect Biochem Physiol",
+        "volume": "40",
+        "issn": "",
+        "pages": "173--182",
+        "other_ids": {},
+        "links": "40693022"
+      },
+      "BIBREF17": {
+        "ref_id": "b17",
+        "title": "Effects of selected physical and chemical treatments of Colorado potato beetle eggs on host acceptance and development of the parasitic wasp, Edovum puttleri",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "S"
+            ],
+            "last": "Hu",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "B"
+            ],
+            "last": "Gelman",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "A"
+            ],
+            "last": "Bell",
+            "suffix": ""
+          }
+        ],
+        "year": 1999,
+        "venue": "Entomol Exper Applic",
+        "volume": "90",
+        "issn": "",
+        "pages": "237--245",
+        "other_ids": {},
+        "links": "85604411"
+      },
+      "BIBREF18": {
+        "ref_id": "b18",
+        "title": "In vitro rearing of Edovum puttleri, an egg parasitoid of the Colorado potato beetle, from egg to pupal stage in artificial diets devoid of insect sources: Effects of dietary amino acid and carbohydrate levels",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "S"
+            ],
+            "last": "Hu",
+            "suffix": ""
+          },
+          {
+            "first": "D",
+            "middle": [
+              "B"
+            ],
+            "last": "Gelman",
+            "suffix": ""
+          },
+          {
+            "first": "R",
+            "middle": [
+              "A"
+            ],
+            "last": "Bell",
+            "suffix": ""
+          }
+        ],
+        "year": null,
+        "venue": "Biol Control",
+        "volume": "",
+        "issn": "",
+        "pages": "",
+        "other_ids": {},
+        "links": "34437098"
+      },
+      "BIBREF19": {
+        "ref_id": "b19",
+        "title": "Host specificity tests of an egg parasite, Edovum puttleri (Hymentoptera: Eulophidae), of the Colorado potato beetle (Leptinotarsa decemlineata) (Coleoptera: Chrysomelidae)",
+        "authors": [
+          {
+            "first": "B",
+            "middle": [],
+            "last": "Puttler",
+            "suffix": ""
+          },
+          {
+            "first": "S",
+            "middle": [
+              "H"
+            ],
+            "last": "Long",
+            "suffix": ""
+          }
+        ],
+        "year": 1983,
+        "venue": "Proc Entomol Soc Washington",
+        "volume": "85",
+        "issn": "",
+        "pages": "383--387",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF20": {
+        "ref_id": "b20",
+        "title": "Two meridic diets for Perillus bioculatus (Heteroptera: Pentatomidae), a predator of Leptinotarsa decemlineata (Coleoptera: Chrysomelidae)",
+        "authors": [
+          {
+            "first": "M",
+            "middle": [
+              "G"
+            ],
+            "last": "Rojas",
+            "suffix": ""
+          },
+          {
+            "first": "J",
+            "middle": [
+              "A"
+            ],
+            "last": "Morales-Ramos",
+            "suffix": ""
+          },
+          {
+            "first": "E",
+            "middle": [
+              "G"
+            ],
+            "last": "King",
+            "suffix": ""
+          }
+        ],
+        "year": 2000,
+        "venue": "Biol Control",
+        "volume": "17",
+        "issn": "",
+        "pages": "92--99",
+        "other_ids": {},
+        "links": "83702924"
+      },
+      "BIBREF21": {
+        "ref_id": "b21",
+        "title": "Biotypes of Edovum putleri (Hymenoptera: Eulophidae): responses to developing eggs of the Colorado potato beetle (Coleoptera: Chrysomelidae)",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "R"
+            ],
+            "last": "Ruberson",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "J"
+            ],
+            "last": "Tauber",
+            "suffix": ""
+          },
+          {
+            "first": "C",
+            "middle": [
+              "A"
+            ],
+            "last": "Tauber",
+            "suffix": ""
+          }
+        ],
+        "year": 1987,
+        "venue": "Ann Entomol Soc Am",
+        "volume": "80",
+        "issn": "",
+        "pages": "451--455",
+        "other_ids": {},
+        "links": "84776813"
+      },
+      "BIBREF22": {
+        "ref_id": "b22",
+        "title": "Potential for the biological control of Leptinotarsa decemlineata (Col.: Chrysomelidae) by the egg parasite",
+        "authors": [
+          {
+            "first": "R",
+            "middle": [
+              "F"
+            ],
+            "last": "Schroder",
+            "suffix": ""
+          },
+          {
+            "first": "M",
+            "middle": [
+              "M"
+            ],
+            "last": "Athanas",
+            "suffix": ""
+          }
+        ],
+        "year": 1989,
+        "venue": "",
+        "volume": "",
+        "issn": "",
+        "pages": "",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF24": {
+        "ref_id": "b24",
+        "title": "Tomato production in Maryland: Effect of different densities of larvae and adults of the Colorado potato beetle",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "M"
+            ],
+            "last": "Schalk",
+            "suffix": ""
+          },
+          {
+            "first": "A",
+            "middle": [
+              "K"
+            ],
+            "last": "Stoner",
+            "suffix": ""
+          }
+        ],
+        "year": 1979,
+        "venue": "J Econ Entomol",
+        "volume": "72",
+        "issn": "",
+        "pages": "826--829",
+        "other_ids": {},
+        "links": "84589835"
+      },
+      "BIBREF25": {
+        "ref_id": "b25",
+        "title": "Some factors relating to the larval growth of the Colorado potato beetle",
+        "authors": [
+          {
+            "first": "S",
+            "middle": [],
+            "last": "Wardojo",
+            "suffix": ""
+          }
+        ],
+        "year": 1969,
+        "venue": "Leptinotarsa decemlineata Say (Coleoptera: Chrysomelidae), on artificial diets. Wageningen: H Veenmanl and Zonen NV",
+        "volume": "",
+        "issn": "",
+        "pages": "",
+        "other_ids": {},
+        "links": null
+      },
+      "BIBREF26": {
+        "ref_id": "b26",
+        "title": "Exploitation of eggs of the Colorado potato beetle, Leptinotarsa decemlineata (Coleoptera: Chrysomelidae), by the exotic egg parasitoid Edovum puttleri (Hymenoptera: Eulophidae) in eggplant",
+        "authors": [
+          {
+            "first": "J",
+            "middle": [
+              "L"
+            ],
+            "last": "Wittmeyer",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [
+              "A"
+            ],
+            "last": "Coudron",
+            "suffix": ""
+          },
+          {
+            "first": "T",
+            "middle": [
+              "S"
+            ],
+            "last": "Adams",
+            "suffix": ""
+          }
+        ],
+        "year": 1987,
+        "venue": "press. Ovarian development, fertility and fecundity in Podisus maculiventris Say",
+        "volume": "20",
+        "issn": "",
+        "pages": "181--186",
+        "other_ids": {},
+        "links": "55464187"
+      }
+    }
+  },
+  "latex_parse": null
+}
