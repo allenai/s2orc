@@ -3,7 +3,7 @@
 S2ORC is a general-purpose corpus for NLP and text mining research over scientific papers.  
 
 * We've curated a unique resource that combines aspects of citation graphs (i.e. rich paper metadata, abstracts, citation edges) with a full text corpus that preserves important scientific paper structure (i.e. sections, inline citation mentions, references to tables and figures).
-* Our resource covers 81M+ paper nodes with 8M+ full text papers by unifying data from many different sources covering many different academic disciplines. 
+* Our resource covers 136M+ paper nodes with 12.7M+ full text papers by unifying data from many different sources covering many different academic disciplines. 
 
 For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447) for more details.
 
@@ -15,12 +15,13 @@ S2ORC is released under the [Semantic Scholar Dataset License](http://api.semant
 
 ## Latest
 
-**Release: 2020-07-05**
+**Release: 2020-07-05v1**
 
-- We've released a new version of S2ORC containing papers up until `2020-04-14`.
-- We've updated the schema to keep paper metadata and parsed paper text separate.
-- We've fixed major bugs such as (i) missing section names, (ii) inline citation mention links that don't resolve to bibliographies, and (iii) unpredictable typing in certain metadata fields. 
-- We've omitted LaTeX parses from this release.  They will be added in a subsequent release.  Part of the dataset schema change is to accommodate incremental releases (e.g. LaTeX-only release without having to re-run PDF parsing).
+- Released a new version of S2ORC containing papers up until `2020-04-14`.
+- Lifted some paper filters to be more lenient toward papers that don't have sufficient amount of text.   
+- Updated the schema to keep paper metadata and parsed paper text separate.
+- Fixed major bugs such as (i) missing section names, (ii) inline citation mention links that don't resolve to bibliographies, and (iii) unpredictable typing in certain metadata fields. 
+- Omitted LaTeX parses from this release.  They will be added in a subsequent release.  Part of the dataset schema change is to accommodate incremental releases (e.g. LaTeX-only release without having to re-run PDF parsing). 
 
 
 **Status: 2020-04-07**
@@ -32,8 +33,8 @@ S2ORC is released under the [Semantic Scholar Dataset License](http://api.semant
 
 **Release: 2019-09-28**
 
+- Statistics: 81M+ paper nodes; 73M+ gold abstracts; 8M+ full text papers
 - Due to release bugs (e.g. missing section names), we no longer recommend usage of this version.  If you must use this version and need assistance, please contact Kyle and Lucy.
-
 
 ## Download instructions
 
@@ -47,7 +48,7 @@ As of the latest release, the full corpus consists of `metadata/` and `pdf_parse
 yyyymmddvi/                 # version ID.  e.g. `20200705v1` means the first version
                             # released on 2020-07-05
 |-- full/ 
-   |-- metadata/            # 100 jsonl files; each file approx 518MB & 2.0GB unzipped
+   |-- metadata/            # 100 jsonl files; each file approx 529MB & 2.0GB unzipped
        |-- metadata_0.jsonl.gz
        |-- metadata_1.jsonl.gz
        ...
@@ -66,7 +67,7 @@ yyyymmddvi/                 # version ID.  e.g. `20200705v1` means the first ver
 
 #### Data size
 
-**We strongly recommend** users to first download the `sample/` (5.8MB) which before committing to downloading the `full/` collection (5.2GB for `metadata/` and 160GB for `pdf_parses/`). 
+**We strongly recommend** users to first download the `sample/` (5.9MB) which before committing to downloading the `full/` collection (52GB for `metadata/` and 160GB for `pdf_parses/`). 
 
 Also make sure there is enough space on your machine.  When unzipped the dataset grows to 191GB for `metadata/` and 643GB for `pdf_parses/`.
 
