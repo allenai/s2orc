@@ -2,7 +2,7 @@
 import setuptools
 
 setuptools.setup(
-    name='s2-gorc',
+    name='s2orc',
     version='0.1',
     packages=setuptools.find_packages(),
     install_requires=[
