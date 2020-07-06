@@ -40,6 +40,11 @@ S2ORC is released under the [Semantic Scholar Dataset License](http://api.semant
 
 You will need an AWS account to access the S3 bucket `s3://ai2-s2-gorc-release/`.
 
+#### Valid release version IDs
+
+* `20200705v1` (latest)
+* `20190928`
+
 #### Directory structure
 
 As of the latest release, the full corpus consists of `metadata/` and `pdf_parses/` splits, each containing 100 gzipped files.  The directory structure for each release is:
