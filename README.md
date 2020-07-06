@@ -15,9 +15,9 @@ S2ORC is released under the [Semantic Scholar Dataset License](http://api.semant
 
 ## Latest
 
-**Release: 2020-07-05v1**
+**Release: 2020-07-05**
 
-- Released a new version of S2ORC containing papers up until `2020-04-14`.
+- Released a new version of S2ORC containing papers up until 2020-04-14.
 - Lifted some paper filters to be more lenient toward papers that don't have sufficient amount of text.   
 - Updated the schema to keep paper metadata and parsed paper text separate.
 - Fixed major bugs such as (i) missing section names, (ii) inline citation mention links that don't resolve to bibliographies, and (iii) unpredictable typing in certain metadata fields. 
