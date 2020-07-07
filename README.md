@@ -2,10 +2,12 @@
 
 S2ORC is a general-purpose corpus for NLP and text mining research over scientific papers.  
 
-* We've curated a unique resource that combines aspects of citation graphs (i.e. rich paper metadata, abstracts, citation edges) with a full text corpus that preserves important scientific paper structure (i.e. sections, inline citation mentions, references to tables and figures).
-* Our resource covers 136M+ paper nodes with 12.7M+ full text papers by unifying data from many different sources covering many different academic disciplines. 
+* We've curated a unified resource that combines aspects of citation graphs (i.e. rich paper metadata, abstracts, citation edges) with a full text corpus that preserves important scientific paper structure (i.e. sections, inline citation mentions, references to tables and figures).
+* Our corpus covers 136M+ paper nodes with 12.7M+ full text papers and connected by 467M+ citation edges by unifying data from many different sources covering many different academic disciplines and identifying open-access papers using services like [Unpaywall](https://unpaywall.org/). 
 
 For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447) for more details.
+
+For an **example** snippet of data, see the [`data/`](https://github.com/allenai/s2orc/tree/master/data) directory in this repo. 
 
 S2ORC is released under the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 
@@ -45,7 +47,7 @@ Please request access to S2ORC through this short [Google Form](https://forms.gl
 * `20200705v1` (latest)
 * `20190928`
 
-#### Directory structure
+#### Release directory structure
 
 As of the latest release, the full corpus consists of `metadata/` and `pdf_parses/` splits, each containing 100 gzipped files.  The directory structure for each release is:
 
@@ -252,7 +254,24 @@ These exist when (i) `bib_entries` does not successfully parse *and* (ii) the pa
 
 ## Example Usage
 
-The way we expect most people to use S2ORC is to loop through the `metadata/` entries and retrieve `pdf_parses/` entries when desired.  For example:
+To start with something simple, let's count (outbound) citation edges:
+
+```python
+import os
+import json
+
+num_edges = 0
+METADATA_DIR = '/disk2/s2orc/20200414/release_metadata/'
+for metadata_file in os.listdir(METADATA_DIR):
+    with open(os.path.join(METADATA_DIR, metadata_file)) as f_meta:
+        for line in f_meta:
+            metadata_dict = json.loads(line)
+            num_edges += len(metadata_dict['outbound_citations'])
+print(num_edges)
+> 467588220
+```
+
+The way we expect most people to use S2ORC full text is to loop through the `metadata/` entries, select papers of interest, and retrieve the corresponding `pdf_parses/` entries when desired.  For example:
 
 ```python
 import json
