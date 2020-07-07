@@ -17,8 +17,8 @@ S2ORC is released under the [Semantic Scholar Dataset License](http://api.semant
 
 **Release: 2020-07-05**
 
-- Released a new version of S2ORC containing papers up until 2020-04-14.
-- Lifted some paper filters to be more lenient toward papers that don't have sufficient amount of text.   
+- Released a new version of S2ORC containing papers up until 2020-04-14, bringing full text coverage from 8M to 12M.
+- Lifted some paper filters to be more lenient toward papers that don't have sufficient amount of text.  This brought total paper count to 136M from 81M.   
 - Updated the schema to keep paper metadata and parsed paper text separate.
 - Fixed major bugs such as (i) missing section names, (ii) inline citation mention links that don't resolve to bibliographies, and (iii) unpredictable typing in certain metadata fields. 
 - Omitted LaTeX parses from this release.  They will be added in a subsequent release.  Part of the dataset schema change is to accommodate incremental releases (e.g. LaTeX-only release without having to re-run PDF parsing). 
@@ -38,9 +38,9 @@ S2ORC is released under the [Semantic Scholar Dataset License](http://api.semant
 
 ## Download instructions
 
-You will need an AWS account to access the S3 bucket `s3://ai2-s2-gorc-release/`.
+Please request access to S2ORC through this short [Google Form](https://forms.gle/dSBnP1vEtxWpPcVW8) and we'll send you URLs to download the dataset.  It's just a few questions like your email, what version you'd like, and whether you'd like to receive email updates.
 
-#### Valid release version IDs
+#### Valid release versions
 
 * `20200705v1` (latest)
 * `20190928`
@@ -76,26 +76,6 @@ yyyymmddvi/                 # version ID.  e.g. `20200705v1` means the first ver
 
 Also make sure there is enough space on your machine.  When unzipped the dataset grows to 191GB for `metadata/` and 643GB for `pdf_parses/`.
 
-#### AWS CLI
-    
-
-For those unfamiliar with S3, we recommend using the AWS CLI ([documentation](https://aws.amazon.com/cli/)):
-
-1. Create a local folder to store the data.  Make sure you have enough disk space.
-
-    `mkdir s2orc_sample/`
-    
-2. Download S2ORC:
-    
-    `aws s3 sync s3://ai2-s2-gorc-release/<version_id>/sample/ s2orc_sample/`
-
-3. Verify:
-
-    `ls s2orc_sample/`
-
-4. Once you're ready, download the entire release version:
-
-    `aws s3 sync s3://ai2-s2-gorc-release/<version_id>/ s2orc/<version_id>`
 
 #### gzip
 
@@ -334,17 +314,25 @@ with open(f'full/metadata/metadata_{BATCH_ID}.jsonl') as f_meta:
 
 ## Contact / Feedback
 
+The best way to contact us is through email.  Don't hesitate to reach out about anything; we've helped a lot of people get started with the dataset, which can be a bit daunting given its size.
+
 **Email:** `{kylel, lucyw}@allenai.org`
+
+**Twitter** [@kylelostat](https://twitter.com/kylelostat), [@lucyluwang](https://twitter.com/lucyluwang)
 
 **IRC:** `#s2orc` at `irc.oftc.net`
 
-**Give us Feedback:**  We'd love to hear how you're using this dataset & any feedback.  See the [Google Form](https://forms.gle/vB4T481sd65rfnir8). 
+**Give us Feedback:**  Totally optional, but we'd love to hear how you're using this dataset & any feedback for improving it.  Send us an email or use this [Google Form](https://forms.gle/vB4T481sd65rfnir8). 
 
-**Mailing list:**  Join our [Google Groups](https://groups.google.com/g/s2orc?pli=1)!  We email updates about S2ORC here.
+**Mailing list:**  Join our [Google Groups](https://groups.google.com/g/s2orc?pli=1)!  We email updates & releases about S2ORC here.
 
-**Report issues:** Use [GitHub Issues](https://github.com/allenai/s2orc/issues) to report issues!  We'll try to fix it for the next release.
+**Report issues:** Use [GitHub Issues](https://github.com/allenai/s2orc/issues) to report bugs or issues!  We'll try to fix it for the next release.
 
  
+
+## FAQ
+
+TBD.
 
 
 ## Citation
