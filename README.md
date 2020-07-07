@@ -261,7 +261,7 @@ import os
 import json
 
 num_edges = 0
-METADATA_DIR = '/disk2/s2orc/20200414/release_metadata/'
+METADATA_DIR = 'full/metadata/'
 for metadata_file in os.listdir(METADATA_DIR):
     with open(os.path.join(METADATA_DIR, metadata_file)) as f_meta:
         for line in f_meta:
