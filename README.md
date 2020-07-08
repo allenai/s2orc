@@ -9,9 +9,8 @@ For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020
 
 For an **example** snippet of data, see the [`data/`](https://github.com/allenai/s2orc/tree/master/data) directory in this repo. 
 
-S2ORC is released under the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
-
-* S2ORC is jointly maintained by [Kyle Lo](https://twitter.com/kylelostat) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/).  
+* S2ORC is jointly maintained by [Kyle Lo](https://twitter.com/kylelostat) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/).
+* S2ORC is released under the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 * Feel free to [email us](#contact) and subscribe to our [mailing list](#contact).  
 * Please cite our paper if you use S2ORC for your project.  See the [BibTeX](#citation). 
 
@@ -353,6 +352,10 @@ The best way to contact us is through email.  Don't hesitate to reach out about 
 
 TBD.
 
+
+## License
+
+S2ORC is released under the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).
 
 ## Citation
 
