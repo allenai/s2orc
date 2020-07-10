@@ -5,13 +5,15 @@ S2ORC is a general-purpose corpus for NLP and text mining research over scientif
 * We've curated a unified resource that combines aspects of citation graphs (i.e. rich paper metadata, abstracts, citation edges) with a full text corpus that preserves important scientific paper structure (i.e. sections, inline citation mentions, references to tables and figures).
 * Our corpus covers 136M+ paper nodes with 12.7M+ full text papers and connected by 467M+ citation edges by unifying data from many different sources covering many different academic disciplines and identifying open-access papers using services like [Unpaywall](https://unpaywall.org/). 
 
-For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447) for more details.
+
+
+For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447).
 
 For an **example** snippet of data, see the [`data/`](https://github.com/allenai/s2orc/tree/master/data) directory in this repo. 
 
 * S2ORC is jointly maintained by [Kyle Lo](https://twitter.com/kylelostat) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/).
 * S2ORC is only for non-commercial use, and is released under the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).  By using S2ORC, you agree to the terms in the license.
-* Feel free to [email us](#contact) and subscribe to our [mailing list](#contact).  
+* Feel free to [email us](#contact-us) and subscribe to our [mailing list](#contact-us).  
 * Please cite our paper if you use S2ORC for your project.  See the [BibTeX](#citation). 
 
 ## Latest
@@ -36,6 +38,30 @@ For an **example** snippet of data, see the [`data/`](https://github.com/allenai
 
 - Statistics: 81M+ paper nodes; 73M+ gold abstracts; 8M+ full text papers
 - Due to release bugs (e.g. missing section names), we no longer recommend usage of this version.  If you must use this version and need assistance, please contact Kyle and Lucy.
+- MAG fields of study:
+
+| Field of study | All papers | Full text |
+|----------------|------------|-----------|
+| Medicine       | 12.8M      | 1.8M      |
+| Biology        | 9.6M       | 1.6M      |
+| Chemistry      | 8.7M       | 484k      |
+| n/a            | 7.7M       | 583k      |
+| Engineering    | 6.3M       | 228k      |
+| Comp Sci       | 6.0M       | 580k      |
+| Physics        | 4.9M       | 838k      |
+| Mat Sci        | 4.6M       | 213k      |
+| Math           | 3.9M       | 669k      |
+| Psychology     | 3.4M       | 316k      |
+| Economics      | 2.3M       | 198k      |
+| Poli Sci       | 1.8M       | 69k       |
+| Business       | 1.8M       | 94k       |
+| Geology        | 1.8M       | 115k      |
+| Sociology      | 1.6M       | 93k       |
+| Geography      | 1.4M       | 58k       |
+| Env Sci        | 766k       | 52k       |
+| Art            | 700k       | 16k       |
+| History        | 690k       | 22k       |
+| Philosophy     | 384k       | 15k       |
 
 ## Download instructions
 
@@ -46,7 +72,7 @@ Please note that we're only releasing S2ORC for non-commercial use.  Please make
 #### Valid release versions
 
 * `20200705v1` (latest)
-* `20190928`
+* `20190928` (no longer providing access, but still can help if needed)
 
 #### Release directory structure
 
@@ -277,6 +303,7 @@ The way we expect most people to use S2ORC full text is to loop through the `met
 ```python
 import json
 
+# feel free to wrap this into a larger loop for batches 0~99
 BATCH_ID = 0
 
 # create a lookup for the pdf parse based on paper ID
@@ -304,21 +331,23 @@ with open(f'full/metadata/metadata_{BATCH_ID}.jsonl') as f_meta:
         
         # get citation context (paragraphs)!
         if paper_id in paper_id_to_pdf_parse:
+            # (1) get the full pdf parse from the previously computed lookup dict
             pdf_parse = paper_id_to_pdf_parse[paper_id]
             
-            # bib entries for looking up citation links
+            # (2) pull out fields we need from the pdf parse, including bibliography & text
             bib_entries = pdf_parse['bib_entries']
+            paragraphs = pdf_parse['abstract'] + pdf_parse['body_text']
             
-            # loop over paragraphs
-            for paragraph in pdf_parse['abstract'] + pdf_parse['body_text']:
+            # (3) loop over paragraphs, grabbing citation contexts
+            for paragraph in paragraphs:
                 
-                # each paragraph can have multiple inline citations
+                # (4) loop over each inline citation in this paragraph
                 for cite_span in paragraph['cite_spans']:
                     
-                    # each inline citation can be resolved to a bib entry
+                    # (5) each inline citation can be resolved to a bib entry
                     cited_bib_entry = bib_entries[cite_span['ref_id']]
                     
-                    # that bib entry *may* be linked to a S2ORC paper
+                    # (6) that bib entry *may* be linked to a S2ORC paper.  if so, grab paragraph
                     linked_paper_id = cited_bib_entry['link']
                     if linked_paper_id:
                         citation_contexts.append({
@@ -332,7 +361,7 @@ with open(f'full/metadata/metadata_{BATCH_ID}.jsonl') as f_meta:
 
 
 
-## Contact / Feedback
+## Contact us
 
 The best way to contact us is through email.  Don't hesitate to reach out about anything; we've helped a lot of people get started with the dataset, which can be a bit daunting given its size.
 
