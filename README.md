@@ -6,7 +6,6 @@ S2ORC is a general-purpose corpus for NLP and text mining research over scientif
 * Our corpus covers 136M+ paper nodes with 12.7M+ full text papers and connected by 467M+ citation edges by unifying data from many different sources covering many different academic disciplines and identifying open-access papers using services like [Unpaywall](https://unpaywall.org/). 
 
 
-
 For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447).
 
 For an **example** snippet of data, see the [`data/`](https://github.com/allenai/s2orc/tree/master/data) directory in this repo. 
@@ -15,6 +14,35 @@ For an **example** snippet of data, see the [`data/`](https://github.com/allenai
 * S2ORC is only for non-commercial use, and is released under the [Semantic Scholar Dataset License](http://api.semanticscholar.org/corpus/legal/).  By using S2ORC, you agree to the terms in the license.
 * Feel free to [email us](#contact-us) and subscribe to our [mailing list](#contact-us).  
 * Please cite our paper if you use S2ORC for your project.  See the [BibTeX](#citation). 
+
+
+## Status
+
+We just released a new version, so are currently getting feedback from users, and supporting use of the corpus internally/externally for other projects.  There are a few things on our TODO list.
+
+#### Short-term
+
+1. Refactoring LaTeX parser & doing a LaTeX release.  This includes special handling of things we didn't consider before, like nested section headers and representing bullet-lists as paragraphs.
+
+2. Adding other joined metadata, like arXiv categories.
+
+3. Releasing the Grobid and LaTeX parsers publicly.
+
+4. Updating the logic around paper de-duplication to prioritize ACL draft over arXiv preprint draft, when possible.
+
+5. Integrating PMC XML parses as well.
+
+#### Medium-term (some work has started, but too early to tell)
+
+1. Graph traversal in S2ORC is difficult due to its size.  We're currently thinking of ways to make it easier to traverse the citation graph.
+
+2. We're investigating computer-vision tools to clean up the Grobid parser output.
+
+3. A PDF-to-S2ORC JSON service.
+
+#### Longer-term (thinking about it, but won't be for a while)
+
+1. We have extracted images and would also like to release these with S2ORC, but licensing/copyright around images is a bit tricky (they're separately licensed from the papers themselves).
 
 ## Latest
 
