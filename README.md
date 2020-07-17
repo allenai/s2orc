@@ -6,7 +6,8 @@ S2ORC is a general-purpose corpus for NLP and text mining research over scientif
 * Our corpus covers 136M+ paper nodes with 12.7M+ full text papers and connected by 467M+ citation edges by unifying data from many different sources covering many different academic disciplines and identifying open-access papers using services like [Unpaywall](https://unpaywall.org/). 
 
 
-For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447).
+For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447) or watch [our 12 min ACL 2020 talk](https://slideslive.com/38929131/s2orc-the-semantic-scholar-open-research-corpus).
+
 
 For an **example** snippet of data, see the [`data/`](https://github.com/allenai/s2orc/tree/master/data) directory in this repo. 
 
@@ -43,6 +44,7 @@ We just released a new version, so are currently getting feedback from users, an
 #### Longer-term (thinking about it, but won't be for a while)
 
 1. We have extracted images and would also like to release these with S2ORC, but licensing/copyright around images is a bit tricky (they're separately licensed from the papers themselves).
+
 
 ## Latest
 
