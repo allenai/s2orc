@@ -411,7 +411,28 @@ The best way to contact us is through email.  Don't hesitate to reach out about 
 
 ## FAQ
 
-TBD.
+#### How is this related to the other [Semantic Scholar Open Research Corpus](http://s2-public-api-prod.us-west-2.elasticbeanstalk.com/corpus/)?
+S2ORC and the older Semantic Scholar Open Research Corpus should be viewed as separate datasets for now, though we're hoping to combine them into a single service in the long-term.  Until then, both are available because there are many existing projects that still rely on one or the other.  Differences between the two:
+
+**Definitions & Scope**
+- S2ORC uses a different way of selecting canonical metadata fields & prioritizing the "version" of the paper to use as canonical (e.g. camera-ready vs preprint).
+- S2ORC has a stricter notion "paper" criteria and does not include slides, dissertations, books, etc..  It also currently does not include non-English papers.  Therefore, S2ORC will have fewer documents in its collection than the other dataset.
+
+**Citation graph**
+- S2ORC uses a different bibliography parser & linker that's higher precision but lower coverage.  Consolidating the two is on our TODO list.
+
+**Metadata**
+- S2ORC does not provide resolved Author IDs, just surface forms.
+- S2ORC provides additional IDs not provided in the other dataset, like arXiv IDs and PMC IDs.
+
+**PDF Parses**
+- S2ORC provides machine-readable full text for open-access papers, while the other does not provide any full text.
+
+**Release & Access**
+- S2ORC is released under CC BY-NC 2.0, which is only for non-commercial use, while the other is released under an ODC-BY license, which allows commercial use.
+- S2ORC is updated at an ad hoc basis now, while the other is automated with monthly dumps.
+
+If you're unsure what to use, please email us and we'd be happy to discuss your project with you.
 
 
 ## License
