@@ -95,9 +95,9 @@ We just released a new version, so are currently getting feedback from users, an
 
 ## Download instructions
 
-Please request access to S2ORC through this short [Google Form](https://forms.gle/22UvYXMzAYHaBbUv7) and we'll send you URLs to download the dataset.  It's just a few questions like your email, what version you'd like, and whether you'd like to receive email updates.
+Please request access to S2ORC through this short [Google Form](https://forms.gle/22UvYXMzAYHaBbUv7) and we'll send you URLs to download the dataset.  It's just a few questions like your email, what version you'd like, and whether you'd like to receive email updates. We will get back to you as quickly as possible. If it has been longer than one week since you have completed the form and you have not heard from us, please complete the form again or send us an email -- your request may have slipped through the cracks.
 
-Please note that we're only releasing S2ORC for non-commercial use.  Please make sure to see the [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/) for the terms of usage.
+Please note that S2ORC is *only* available for non-commercial use.  Please make sure to see the [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/) for the terms of usage.
 
 #### Valid release versions
 
