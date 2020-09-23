@@ -1,2 +1,0 @@
-S3_BUCKET_NAME = 'ai2-s2-gorc-release'
-CURRENT_VERSION = '20190928'
