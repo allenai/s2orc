@@ -16,8 +16,12 @@ For an **example** snippet of data, see the [`data/`](https://github.com/allenai
 * Feel free to [email us](#contact-us) and subscribe to our [mailing list](#contact-us).  
 * Please cite our paper if you use S2ORC for your project.  See the [BibTeX](#citation). 
 
+## News
 
-## Status
+* Feb 2021 - Released [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) to support parsing of PDF and LaTeX to JSON format.
+
+
+## Project status
 
 We just released a new version, so are currently getting feedback from users, and supporting use of the corpus internally/externally for other projects.  There are a few things on our TODO list.
 
@@ -27,7 +31,7 @@ We just released a new version, so are currently getting feedback from users, an
 
 2. Adding other joined metadata, like arXiv categories.
 
-3. Releasing the Grobid and LaTeX parsers publicly.
+3. ~Releasing the Grobid and LaTeX parsers publicly.~ - Released s2orc-doc2json on Feb 2021
 
 4. Updating the logic around paper de-duplication to prioritize ACL draft over arXiv preprint draft, when possible.
 
@@ -39,14 +43,14 @@ We just released a new version, so are currently getting feedback from users, an
 
 2. We're investigating computer-vision tools to clean up the Grobid parser output.
 
-3. A PDF-to-S2ORC JSON service.
+3. ~A PDF-to-S2ORC JSON service.~ - See s2orc-doc2json
 
 #### Longer-term (thinking about it, but won't be for a while)
 
 1. We have extracted images and would also like to release these with S2ORC, but licensing/copyright around images is a bit tricky (they're separately licensed from the papers themselves).
 
 
-## Latest
+## S2ORC releases
 
 **Release: 2020-07-05**
 
