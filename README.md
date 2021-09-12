@@ -81,18 +81,18 @@ We just released a new version, so are currently getting feedback from users, an
 | Chemistry      | 8.7M       | 484k      |
 | n/a            | 7.7M       | 583k      |
 | Engineering    | 6.3M       | 228k      |
-| Comp Sci       | 6.0M       | 580k      |
+| Computer Science       | 6.0M       | 580k      |
 | Physics        | 4.9M       | 838k      |
-| Mat Sci        | 4.6M       | 213k      |
+| Material Science        | 4.6M       | 213k      |
 | Math           | 3.9M       | 669k      |
 | Psychology     | 3.4M       | 316k      |
 | Economics      | 2.3M       | 198k      |
-| Poli Sci       | 1.8M       | 69k       |
+| Political Science       | 1.8M       | 69k       |
 | Business       | 1.8M       | 94k       |
 | Geology        | 1.8M       | 115k      |
 | Sociology      | 1.6M       | 93k       |
 | Geography      | 1.4M       | 58k       |
-| Env Sci        | 766k       | 52k       |
+| Environmental Science        | 766k       | 52k       |
 | Art            | 700k       | 16k       |
 | History        | 690k       | 22k       |
 | Philosophy     | 384k       | 15k       |
