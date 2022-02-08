@@ -11,10 +11,13 @@ For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020
 
 For an **example** snippet of data, see the [`data/`](https://github.com/allenai/s2orc/tree/master/data) directory in this repo. 
 
+For access to the full thing, **[click here for Download instructions](#download-instructions)**.
+
 * S2ORC is jointly maintained by [Kyle Lo](https://twitter.com/kylelostat) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/).
 * S2ORC is only for non-commercial use, and is released under the [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/).  By using S2ORC, you agree to the terms in the license.
 * Feel free to [email us](#contact-us) and subscribe to our [mailing list](#contact-us).  
 * Please cite our paper if you use S2ORC for your project.  See the [BibTeX](#citation). 
+
 
 ## News
 
@@ -99,7 +102,7 @@ We just released a new version, so are currently getting feedback from users, an
 
 ## Download instructions
 
-Please request access to S2ORC through this short [Google Form](https://forms.gle/22UvYXMzAYHaBbUv7) and we'll send you URLs to download the dataset. **It may take us up to a week to get back to you.** If it has been longer than one week since you have completed the form and you have not heard from us, please complete the form again or send us an email -- your request may have slipped through the cracks.
+Please request access to S2ORC through this short [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeL34E6MsZHhkx-JnuMiugiFLPlqE0G1n-2v2IavDhhBjUWgw/viewform?usp=sf_link) and we'll send you URLs to download the dataset. **It may take us up to a week to get back to you.** If it has been longer than one week since you have completed the form and you have not heard from us, please complete the form again or send us an email -- your request may have slipped through the cracks.
 
 Please note that S2ORC is *only* available for non-commercial use.  Please make sure to see the [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/) for the terms of usage.
 
