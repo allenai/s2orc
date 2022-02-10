@@ -14,7 +14,7 @@ For an **example** snippet of data, see the [`data/`](https://github.com/allenai
 For access to the full thing, **[click here for Download instructions](#download-instructions)**.
 
 * S2ORC is jointly maintained by [Kyle Lo](https://twitter.com/kylelostat) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/).
-* S2ORC is only for non-commercial use, and is released under the [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/).  By using S2ORC, you agree to the terms in the license.
+* S2ORC is only for non-commercial use, and is released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  By using S2ORC, you agree to the terms in the license.
 * Feel free to [email us](#contact-us) and subscribe to our [mailing list](#contact-us).  
 * Please cite our paper if you use S2ORC for your project.  See the [BibTeX](#citation). 
 
@@ -104,7 +104,7 @@ We just released a new version, so are currently getting feedback from users, an
 
 Please request access to S2ORC through this short [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeL34E6MsZHhkx-JnuMiugiFLPlqE0G1n-2v2IavDhhBjUWgw/viewform?usp=sf_link) and we'll send you URLs to download the dataset. **It may take us up to a week to get back to you.** If it has been longer than one week since you have completed the form and you have not heard from us, please complete the form again or send us an email -- your request may have slipped through the cracks.
 
-Please note that S2ORC is *only* available for non-commercial use.  Please make sure to see the [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/) for the terms of usage.
+Please note that S2ORC is *only* available for non-commercial use.  Please make sure to see the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) for the terms of usage.
 
 #### Valid release versions
 
@@ -436,7 +436,7 @@ S2ORC and S2AG should be viewed as separate datasets, though we're hoping to com
 - S2ORC provides machine-readable full text for open-access papers, while the other does not provide any full text.
 
 **Release & Access**
-- S2ORC is released under CC BY-NC 2.0, which is only for non-commercial use, while S2AG is released under an ODC-BY license, which allows commercial use.
+- S2ORC is released under CC BY-NC 4.0, which is only for non-commercial use, while S2AG is released under an ODC-BY license, which allows commercial use.
 - S2ORC is updated at an ad hoc basis now, while S2AG is fully automated.
 
 If you're unsure what to use, please email us and we'd be happy to discuss your project with you.
@@ -444,7 +444,7 @@ If you're unsure what to use, please email us and we'd be happy to discuss your 
 
 ## License
 
-S2ORC is released under the [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/).  By using S2ORC, you are agreeing to its usage terms.
+S2ORC is released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  By using S2ORC, you are agreeing to its usage terms.
 
 ## Citation
 
