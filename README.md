@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/allenai/s2orc/master/assets/logo.svg" alt="Logo of S2ORC, pronounced stork" width="20%">
+</p>
+
+
 # S2ORC: The Semantic Scholar Open Research Corpus
 
 S2ORC is a general-purpose corpus for NLP and text mining research over scientific papers.  
