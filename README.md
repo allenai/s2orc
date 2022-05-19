@@ -131,6 +131,10 @@ S2ORC contains all the content processed from PDFs of papers, which naturally in
 This is because of paper deduplication. For example, when Semantic Scholar has copies of the same paper from both arXiv and PubMed, we ensure there is only a single representative paper in S2AG.  But what if the Title or Abstract is different between the arXiv and PubMed versions?  S2AG prioritizes metadata associated with the official version of record, while S2ORC prioritizes versions of the paper that have an associated open-access license.  Then in our example, S2ORC paper content (including PDF-processed Title or Abstract) might come the arXiv rather than the PubMed version.
 
 
+#### I have my own collection of PDFs. Can I get S2ORC processed versions of them?
+
+Yes, check out [S2ORC-Doc2JSON](https://github.com/allenai/s2orc-doc2json).   
+
 
 ## License
 
