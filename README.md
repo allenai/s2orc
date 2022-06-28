@@ -26,6 +26,8 @@ For access to the full thing, **[click here for Download instructions](#download
 
 ## News
 
+* <span style="color:red">June 2022 - AWS S3 has limited the duration of download links we can send out to **one week**.  We're currently working on a long-term fix for this, but in the meantime, please be ready to download S2ORC soon after obtaining access.  If your credentials expire before then, reach out to us and we'll send you a refresh.</span>
+
 * Feb 2021 - Released [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) to support parsing of PDF and LaTeX to JSON format.
 
 
