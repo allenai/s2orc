@@ -5,6 +5,8 @@
 
 # S2ORC: The Semantic Scholar Open Research Corpus
 
+⚠️⚠️⚠️ S2ORC is now fully integrated into Semantic Scholar and is available through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api) as a "Bulk Dataset". We encourage everyone to access S2ORC through that process, as that will be how it works going forward *and* it gets built regularly so it includes ⭐ new papers ⭐ as well! We will still be granting access to our static 2020-07-05 version of S2ORC through the old Google Forms until **Feb 2023**, after which we will point everyone to the public API. We're very excited to have Semantic Scholar adopt our research corpus as a new (and still free) product offering. Thanks everyone for supporting our project :) ⚠️⚠️⚠️
+
 S2ORC is a general-purpose corpus for NLP and text mining research over scientific papers.  
 
 * We've curated a unified resource that combines aspects of citation graphs (i.e. rich paper metadata, abstracts, citation edges) with a full text corpus that preserves important scientific paper structure (i.e. sections, inline citation mentions, references to tables and figures).
@@ -26,43 +28,20 @@ For access to the full thing, **[click here for Download instructions](#download
 
 ## News
 
+* ⭐ Jan 2023 - Happy new year! We encourage everyone to access S2ORC through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api) as a "Bulk Dataset" for download! We will continue to service requests for access until **Feb 2023**, after which we will fully switch over to access through the public API. Thanks!
+
 * <span style="color:red">June 2022 - AWS S3 has limited the duration of download links we can send out to **one week**.  We're currently working on a long-term fix for this, but in the meantime, please be ready to download S2ORC soon after obtaining access.  If your credentials expire before then, reach out to us and we'll send you a refresh.</span>
 
 * Feb 2021 - Released [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json) to support parsing of PDF and LaTeX to JSON format.
 
 
-## Project status
-
-We just released a new version, so are currently getting feedback from users, and supporting use of the corpus internally/externally for other projects.  There are a few things on our TODO list.
-
-#### Short-term
-
-1. Refactoring LaTeX parser & doing a LaTeX release.  This includes special handling of things we didn't consider before, like nested section headers and representing bullet-lists as paragraphs.
-
-2. Adding other joined metadata, like arXiv categories.
-
-3. ~Releasing the Grobid and LaTeX parsers publicly.~ - Released s2orc-doc2json on Feb 2021
-
-4. Updating the logic around paper de-duplication to prioritize ACL draft over arXiv preprint draft, when possible.
-
-5. Integrating PMC XML parses as well.
-
-#### Medium-term (some work has started, but too early to tell)
-
-1. Graph traversal in S2ORC is difficult due to its size.  We're currently thinking of ways to make it easier to traverse the citation graph.
-
-2. We're investigating computer-vision tools to clean up the Grobid parser output.
-
-3. ~A PDF-to-S2ORC JSON service.~ - See s2orc-doc2json
-
-#### Longer-term (thinking about it, but won't be for a while)
-
-1. We have extracted images and would also like to release these with S2ORC, but licensing/copyright around images is a bit tricky (they're separately licensed from the papers themselves).
-
-
 ## S2ORC releases
 
-**Release: 2020-07-05**
+⭐ **Release: Ongoing**
+
+Please see the note at the top of the page. S2ORC is now available through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api) as a "Bulk Dataset". It is continuously being rebuilt so if you access it through there, you'll get access to **new** papers as well!
+
+**Release: 2020-07-05 (Final static dump; will continue granting access through Jan 2023)**
 
 - Released a new version of S2ORC containing papers up until 2020-04-14, bringing full text coverage from 8M to 12M.
 - Lifted some paper filters to be more lenient toward papers that don't have sufficient amount of text.  This brought total paper count to 136M from 81M.   
