@@ -5,7 +5,7 @@
 
 # S2ORC: The Semantic Scholar Open Research Corpus
 
-⚠️⚠️⚠️ S2ORC is now fully integrated into Semantic Scholar and is available through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api) as a "Bulk Dataset". We encourage everyone to access S2ORC through that process, as that will be how it works going forward *and* it gets built regularly so it includes ⭐ new papers ⭐ as well! We will still be granting access to our static 2020-07-05 version of S2ORC through the old Google Forms until **Feb 2023**, after which we will point everyone to the public API. We're very excited to have Semantic Scholar adopt our research corpus as a new (and still free) product offering. Thanks everyone for supporting our project :) ⚠️⚠️⚠️
+⚠️⚠️⚠️ S2ORC is now fully integrated into Semantic Scholar and is available through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api) as a "Bulk Dataset". We encourage everyone to access S2ORC through that process, as that will be how it works going forward *and* it gets built regularly so it includes ⭐ new papers ⭐ as well! We're very excited to have Semantic Scholar adopt our research corpus as a new (and still free) product offering. Thanks everyone for supporting our project :) ⚠️⚠️⚠️
 
 S2ORC is a general-purpose corpus for NLP and text mining research over scientific papers.  
 
@@ -17,8 +17,6 @@ For more details, see [our ACL 2020 paper](https://www.aclweb.org/anthology/2020
 
 
 For an **example** snippet of data, see the [`data/`](https://github.com/allenai/s2orc/tree/master/data) directory in this repo. 
-
-For access to the full thing, **[click here for Download instructions](#download-instructions)**.
 
 * S2ORC is jointly maintained by [Kyle Lo](https://twitter.com/kylelostat) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/).
 * S2ORC is only for non-commercial use, and is released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  By using S2ORC, you agree to the terms in the license.
@@ -41,7 +39,7 @@ For access to the full thing, **[click here for Download instructions](#download
 
 Please see the note at the top of the page. S2ORC is now available through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api) as a "Bulk Dataset". It is continuously being rebuilt so if you access it through there, you'll get access to **new** papers as well!
 
-**Release: 2020-07-05 (Final static dump; will continue granting access through Jan 2023)**
+**Release: 2020-07-05**
 
 - Released a new version of S2ORC containing papers up until 2020-04-14, bringing full text coverage from 8M to 12M.
 - Lifted some paper filters to be more lenient toward papers that don't have sufficient amount of text.  This brought total paper count to 136M from 81M.   
@@ -88,16 +86,17 @@ Please see the note at the top of the page. S2ORC is now available through the [
 
 ## Download instructions
 
-Please request access to S2ORC through this short [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeL34E6MsZHhkx-JnuMiugiFLPlqE0G1n-2v2IavDhhBjUWgw/viewform?usp=sf_link) and we'll send you URLs to download the dataset. **It may take us up to a week to get back to you.** If it has been longer than one week since you have completed the form and you have not heard from us, please complete the form again or send us an email -- your request may have slipped through the cracks.
+Please request access to S2ORC through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api). It is available under "Bulk Dataset."
 
 Please note that S2ORC is *only* available for non-commercial use.  Please make sure to see the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) for the terms of usage.
 
 #### Valid release versions
 
-* `20200705v1` (latest)
-* `20190928` (no longer providing access, but still can help if needed)
+* Up-to-date release via Semantic Scholar Public API
+* `20200705v1` (no longer providing access, but can help if needed)
+* `20190928` (no longer providing access, but can help if needed)
 
-#### Release directory structure
+#### Release directory structure (applies to old static releases only -- no longer supported)
 
 As of the latest release, the full corpus consists of `metadata/` and `pdf_parses/` splits, each containing 100 gzipped files.  The directory structure for each release is:
 
