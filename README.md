@@ -9,7 +9,7 @@ S2ORC is a general-purpose corpus for NLP and text mining research over scientif
 
 * **[Download instructions](#download-instructions)**.
 * S2ORC was developed by [Kyle Lo](https://kyleclo.github.io/) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/). It is currently being maintained by the Semantic Scholar API team led by [Rodney Kinney](https://www.linkedin.com/in/rodney-kinney-503926) and [Waleed Ammar](https://wammar.github.io). Feel free to [email us](#contact-us).
-* S2ORC is only for non-commercial use, and is released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  By using S2ORC, you agree to the terms in the license.
+* S2ORC is only for non-commercial use, and is released under the [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/).  By using S2ORC, you agree to the terms in the license.
 * Please cite [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447) if you use S2ORC for your project.  See the [BibTeX](#citation). You can also watch [our 12 min ACL 2020 talk](https://slideslive.com/38929131/s2orc-the-semantic-scholar-open-research-corpus).
 
 
@@ -89,10 +89,9 @@ If you're unsure what to use, please email us and we'd be happy to discuss your 
 
 ## License
 
-S2ORC is released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  By using S2ORC, you are agreeing to its usage terms. 
+S2ORC is currently released through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api) under the [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/). By using S2ORC, you are agreeing to its usage terms. 
 
 Please note this means that S2ORC is currently *only* available for non-commercial use.
-
 
 ## Citation
 
