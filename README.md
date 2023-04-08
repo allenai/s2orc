@@ -8,7 +8,7 @@
 S2ORC is a general-purpose corpus for NLP and text mining research over scientific papers.
 
 * **[Download instructions](#download-instructions)**.
-* S2ORC was developed by [Kyle Lo](https://kyleclo.github.io/) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/). It is currently being maintained by the Semantic Scholar API team led by [Rodney Kinney](https://www.linkedin.com/in/rodney-kinney-503926) and [Waleed Ammar](https://wammar.github.io). Feel free to [email us](#contact-us).
+* S2ORC was developed by [Kyle Lo](https://kyleclo.github.io/) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/).
 * S2ORC is only for non-commercial use, and is released under the [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/).  By using S2ORC, you agree to the terms in the license.
 * Please cite [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447) if you use S2ORC for your project.  See the [BibTeX](#citation). You can also watch [our 12 min ACL 2020 talk](https://slideslive.com/38929131/s2orc-the-semantic-scholar-open-research-corpus).
 
@@ -54,16 +54,14 @@ S2ORC is now available through the [Semantic Scholar Public API](https://www.sem
 
 ## Download instructions
 
-Please request access to S2ORC by:
-1. Requesting a Semantic Scholar API key [here](https://www.semanticscholar.org/product/api#Partner-Form)
-2.  **It may take us up to a week to get back to you.** If it has been longer than one week since you have completed the form and you have not heard from us, please send us an email -- your request may have slipped through the cracks.
-
+The original S2ORC dataset files were refactored into multiple datasets available through [the Semantic Scholar APIs](https://api.semanticscholar.org/) (See detailed documentation [here](https://api.semanticscholar.org/api-docs/datasets)). 
+For questions, feature requests, bug reports, please search existing issues on [the s2-folks Github repo](https://github.com/allenai/s2-folks/issues?q=is%3Aissue) before creating [a new issue](https://github.com/allenai/s2-folks/issues/new). 
 
 ## Contact us
 
 The best way to contact us is through email.  Don't hesitate to reach out about anything; we've helped a lot of people get started with the dataset, which can be a bit daunting given its size.
 
-**Email:** Please include `{kylel, lucyw, rodneyk, waleeda}@allenai.org` on all correspondence.
+**Email:** Please include `{kylel, lucyw, rodneyk}@allenai.org` on all correspondence.
 
 **Twitter** [@kylelostat](https://twitter.com/kylelostat), [@lucyluwang](https://twitter.com/lucyluwang)
 
@@ -71,21 +69,21 @@ The best way to contact us is through email.  Don't hesitate to reach out about 
 
 **Give us Feedback:**  Totally optional, but we'd love to hear how you're using this dataset & any feedback for improving it.  Send us an email or leave a Github Issue. 
 
-**Report issues:** Use [GitHub Issues](https://github.com/allenai/s2orc/issues) to report bugs or issues!  We'll try to fix it for the next release.
+**Report issues:** 
+* For questions, feature requests, bug reports, please search existing issues on [the s2-folks Github repo](https://github.com/allenai/s2-folks/issues?q=is%3Aissue) before creating [a new issue](https://github.com/allenai/s2-folks/issues/new). 
+* Use [GitHub Issues](https://github.com/allenai/s2orc/issues) to report bugs or issues in the original S2ORC dataset!  We'll try to fix it for the next release.
  
 
 ## FAQ
 
-#### How is this related to the [Semantic Scholar Academic Graph (S2AG)](https://www.semanticscholar.org/product/api)?
+#### What's the difference between [S2ORC](https://arxiv.org/abs/1911.02782) and [S2AG](https://dl.acm.org/doi/fullHtml/10.1145/3487553.3527147)?
+At a high level:
 
-S2ORC and S2AG should be viewed as separate datasets, but accessed through the same public API. In short:
+- S2AG is everything that is covered in the literature graph, including Nodes (i.e. papers, authors) and Edges (i.e. citations, authorship). A `paper` in S2AG is represented by a bundle of Metadata, such as the Title, Authors, Year, Venue, Abstract, etc. You can download different releases of S2AG via the [the Semantic Scholar APIs](https://api.semanticscholar.org/) (See detailed documentation [here](https://api.semanticscholar.org/api-docs/datasets)).
 
-- S2AG is everything that is covered in the literature graph, including Nodes (i.e. papers, authors) and Edges (i.e. citations, authorship). A `paper` in S2AG is represented by a bundle of Metadata, such as the Title, Authors, Year, Venue, Abstract, etc.
+- S2ORC is everything that is machine-readable **full text** of the paper, which we derive using models run on the paper's PDF. The original S2ORC dataset files are no longer available for download. They were refactored into multiple datasets available through [the Semantic Scholar APIs](https://api.semanticscholar.org/) (See detailed documentation [here](https://api.semanticscholar.org/api-docs/datasets)).  
 
-- S2ORC is everything that is machine-readable **full text** of the paper, which we derive using models run on the paper's PDF. 
-
-If you're unsure what to use, please email us and we'd be happy to discuss your project with you.
-
+If you're unsure what to use or cite, please email us and we'd be happy to discuss your project with you.
 
 ## License
 
