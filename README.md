@@ -65,13 +65,10 @@ The best way to contact us is through email.  Don't hesitate to reach out about 
 
 **Twitter** [@kylelostat](https://twitter.com/kylelostat), [@lucyluwang](https://twitter.com/lucyluwang)
 
-**IRC:** `#s2orc` at `irc.oftc.net`
-
 **Give us Feedback:**  Totally optional, but we'd love to hear how you're using this dataset & any feedback for improving it.  Send us an email or leave a Github Issue. 
 
 **Report issues:** 
 * For questions, feature requests, bug reports, please search existing issues on [the s2-folks Github repo](https://github.com/allenai/s2-folks/issues?q=is%3Aissue) before creating [a new issue](https://github.com/allenai/s2-folks/issues/new). 
-* Use [GitHub Issues](https://github.com/allenai/s2orc/issues) to report bugs or issues in the original S2ORC dataset!  We'll try to fix it for the next release.
  
 
 ## FAQ
