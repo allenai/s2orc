@@ -76,16 +76,14 @@ The best way to contact us is through email.  Don't hesitate to reach out about 
 
 ## FAQ
 
-#### How is this related to the [Semantic Scholar Academic Graph (S2AG)](https://www.semanticscholar.org/product/api)?
+#### What's the difference between [S2ORC](https://arxiv.org/abs/1911.02782) and [S2AG](https://dl.acm.org/doi/fullHtml/10.1145/3487553.3527147)?
+At a high level:
 
-S2ORC and S2AG should be viewed as separate datasets, but accessed through the same public API. In short:
+- S2AG is everything that is covered in the literature graph, including Nodes (i.e. papers, authors) and Edges (i.e. citations, authorship). A `paper` in S2AG is represented by a bundle of Metadata, such as the Title, Authors, Year, Venue, Abstract, etc. You can download different releases of S2AG via the [the Semantic Scholar APIs](https://api.semanticscholar.org/) (See detailed documentation [here](https://api.semanticscholar.org/api-docs/datasets)).
 
-- S2AG is everything that is covered in the literature graph, including Nodes (i.e. papers, authors) and Edges (i.e. citations, authorship). A `paper` in S2AG is represented by a bundle of Metadata, such as the Title, Authors, Year, Venue, Abstract, etc.
+- S2ORC is everything that is machine-readable **full text** of the paper, which we derive using models run on the paper's PDF. The original S2ORC dataset files are no longer available for download. They were refactored into multiple datasets available through [the Semantic Scholar APIs](https://api.semanticscholar.org/) (See detailed documentation [here](https://api.semanticscholar.org/api-docs/datasets)).  
 
-- S2ORC is everything that is machine-readable **full text** of the paper, which we derive using models run on the paper's PDF. 
-
-If you're unsure what to use, please email us and we'd be happy to discuss your project with you.
-
+If you're unsure what to use or cite, please email us and we'd be happy to discuss your project with you.
 
 ## License
 
