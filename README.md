@@ -8,15 +8,15 @@
 S2ORC is a general-purpose corpus for NLP and text mining research over scientific papers.
 
 * **[Download instructions](#download-instructions)**.
-* S2ORC was developed by [Kyle Lo](https://kyleclo.github.io/) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/).
-* S2ORC is only for non-commercial use, and is released under the [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/).  By using S2ORC, you agree to the terms in the license.
+* S2ORC was developed by [Kyle Lo](https://kyleclo.github.io/) and [Lucy Lu Wang](https://llwang.net/) at the [Allen Institute for AI](https://allenai.org/). It is now being maintained as a product offering by the API team at [Semantic Scholar](https://www.semanticscholar.org/product/api).
+* S2ORC is released under the [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/).  By using S2ORC, you agree to the terms in the license.
 * Please cite [our ACL 2020 paper](https://www.aclweb.org/anthology/2020.acl-main.447) if you use S2ORC for your project.  See the [BibTeX](#citation). You can also watch [our 12 min ACL 2020 talk](https://slideslive.com/38929131/s2orc-the-semantic-scholar-open-research-corpus).
 
 
 
 ## News and Releases
 
-⭐ **S2ORC 2.0 Release**
+⭐ **S2ORC now available through S2 API**
 
 It's Jan 2023; happy new year! After years of managing S2ORC as a research project, it has now been adopted as a core dataset offering through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api). Please look for the instructions under "Bulk Dataset" for download! 
 
@@ -55,20 +55,23 @@ S2ORC is now available through the [Semantic Scholar Public API](https://www.sem
 ## Download instructions
 
 The original S2ORC dataset files were refactored into multiple datasets available through [the Semantic Scholar APIs](https://api.semanticscholar.org/) (See detailed documentation [here](https://api.semanticscholar.org/api-docs/datasets)). 
+
 For questions, feature requests, bug reports, please search existing issues on [the s2-folks Github repo](https://github.com/allenai/s2-folks/issues?q=is%3Aissue) before creating [a new issue](https://github.com/allenai/s2-folks/issues/new). 
+
 
 ## Contact us
 
 The best way to contact us is through email.  Don't hesitate to reach out about anything; we've helped a lot of people get started with the dataset, which can be a bit daunting given its size.
 
-**Email:** Please include `{kylel, lucyw, rodneyk}@allenai.org` on all correspondence.
+**Email:** Please include `{kylel, lucyw, rodneyk, wammar}@allenai.org` on all correspondence.
 
 **Twitter** [@kylelostat](https://twitter.com/kylelostat), [@lucyluwang](https://twitter.com/lucyluwang)
 
 **Give us Feedback:**  Totally optional, but we'd love to hear how you're using this dataset & any feedback for improving it.  Send us an email or leave a Github Issue. 
 
 **Report issues:** 
-* For questions, feature requests, bug reports, please search existing issues on [the s2-folks Github repo](https://github.com/allenai/s2-folks/issues?q=is%3Aissue) before creating [a new issue](https://github.com/allenai/s2-folks/issues/new). 
+
+S2ORC is now being maintained by the S2 API product team. For questions, feature requests, bug reports, please search existing issues on [the s2-folks Github repo](https://github.com/allenai/s2-folks/issues?q=is%3Aissue) before creating [a new issue](https://github.com/allenai/s2-folks/issues/new). 
  
 
 ## FAQ
@@ -82,11 +85,21 @@ At a high level:
 
 If you're unsure what to use or cite, please email us and we'd be happy to discuss your project with you.
 
+#### I have an old version of S2ORC. How is it different from the version of S2ORC from the S2 API?
+
+- Original S2ORC was a research project w/ original code. The current S2ORC is a reimplementation of the ideas from the research project within the Semantic Scholar data pipeline. As such, there can be differences due to low level implementation details being different.
+
+- Current S2ORC is maintained by a different team than the original researchers. 
+
+
+- Original S2ORC was released under a non-commercial license. The current S2ORC is released under an ODC-By 1.0 license. We ask that users take care to double-check whether their intended usage of S2ORC and its underlying contents is permissible under this license.
+
+
 ## License
 
 S2ORC is currently released through the [Semantic Scholar Public API](https://www.semanticscholar.org/product/api) under the [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/). By using S2ORC, you are agreeing to its usage terms. 
 
-Please note this means that S2ORC is currently *only* available for non-commercial use.
+
 
 ## Citation
 
