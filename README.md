@@ -63,7 +63,7 @@ For questions, feature requests, bug reports, please search existing issues on [
 
 The best way to contact us is through email.  Don't hesitate to reach out about anything; we've helped a lot of people get started with the dataset, which can be a bit daunting given its size.
 
-**Email:** Please include `{kylel, lucyw, rodneyk, waleeda}@allenai.org` on all correspondence.
+**Email:** Please include `{kylel, lucyw, rodneyk` on all correspondence.
 
 **Twitter** [@kylelostat](https://twitter.com/kylelostat), [@lucyluwang](https://twitter.com/lucyluwang)
 
